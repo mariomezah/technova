@@ -73,5 +73,5 @@ urlpatterns = [
     path("reporte/", views.reporte_clientes, name="reporte_clientes"), (duplicate-code)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.82/10 (previous run: 7.01/10, -0.19)
+Your code has been rated at 6.82/10 (previous run: 6.82/10, +0.00)
 
