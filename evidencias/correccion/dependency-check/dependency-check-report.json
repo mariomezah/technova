@@ -1,0 +1,3239 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.2",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-05-17T06:10:55Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-05-17T05:16:16Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "TechNova-Seguridad-Revision-Final",
+        "reportDate": "2026-05-17T08:15:25.023926016Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": false,
+            "fileName": "DateTimeShortcuts.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/admin\/DateTimeShortcuts.js"
+,"md5": "9f6e209cebcafd8430ddb01e9b68b977",
+            "sha1": "b0814f9cc4ffd6daa69006c1e256648e5e6881fd",
+            "sha256": "af2261b4cf523747cc75f9e157f9b61efda973a6bd074669737ee8719f36ffed"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "DateTimeShortcuts.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/admin\/DateTimeShortcuts.js"
+,"sha256": "af2261b4cf523747cc75f9e157f9b61efda973a6bd074669737ee8719f36ffed",
+                    "sha1": "b0814f9cc4ffd6daa69006c1e256648e5e6881fd",
+                    "md5": "9f6e209cebcafd8430ddb01e9b68b977"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "DateTimeShortcuts.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/filters\/static\/unfold\/filters\/js\/DateTimeShortcuts.js"
+,"md5": "980bc77232519033e1c4c51cd090473e",
+            "sha1": "732bdb3b771cdc7d4b8e2f2ece420a7573483842",
+            "sha256": "8e014d0437fa687bd4972bf42c40c78205cefb103ca5638258559c56ea5d037d"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "OLMapWidget.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/gis\/static\/gis\/js\/OLMapWidget.js"
+,"md5": "1603682414afdc8362a6cc4344c5461e",
+            "sha1": "dbf0b748d8df4e644e0a59c60f90cb1d5552dce6",
+            "sha256": "25d649b57e043ffa6986c8f1b3b12765d7c718cd6ce59b27d4c437f090d4d094"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "RelatedObjectLookups.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/admin\/RelatedObjectLookups.js"
+,"md5": "c8bdc2b7dfa5b6ada064344c9c1c4c2d",
+            "sha1": "c938d67b9887456933f202636356308f0b819578",
+            "sha256": "0f9389f90f1141445ba001450fd2361ac3fab0a524ebefffab6a8f36dcfe1227"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "RelatedObjectLookups.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/admin\/js\/admin\/RelatedObjectLookups.js"
+,"sha256": "0f9389f90f1141445ba001450fd2361ac3fab0a524ebefffab6a8f36dcfe1227",
+                    "sha1": "c938d67b9887456933f202636356308f0b819578",
+                    "md5": "c8bdc2b7dfa5b6ada064344c9c1c4c2d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "RelatedObjectLookups.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/admin\/RelatedObjectLookups.js"
+,"md5": "ed6240809a40f155dd9c6ada9ba6a96a",
+            "sha1": "eb819022b6586793752298989863ef9bb4fb44eb",
+            "sha256": "b7cb5151e34a530454859be8c0cb35f9eb73a986bd75057200975c0234f63aeb"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "SelectBox.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/SelectBox.js"
+,"md5": "7d3ce5a9800705ffbd8e6eaa2009fb09",
+            "sha1": "3b9f6232e2f766cf25af87449b7230449c45b063",
+            "sha256": "6f8dac195a9a083aa5af489b16266eb3d15bad4c1e45c283ff2eb51c301d42e7"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "SelectBox.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/SelectBox.js"
+,"sha256": "6f8dac195a9a083aa5af489b16266eb3d15bad4c1e45c283ff2eb51c301d42e7",
+                    "sha1": "3b9f6232e2f766cf25af87449b7230449c45b063",
+                    "md5": "7d3ce5a9800705ffbd8e6eaa2009fb09"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "SelectFilter2.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/SelectFilter2.js"
+,"md5": "58388953117febbca63a8caa1b87277f",
+            "sha1": "33376dea0c8682cc9c8bc28874973102e4d230f7",
+            "sha256": "00cbbff75b9ad6de2b32a1cef786aef3eeb681d4b5931540875578b526a27a7d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "SelectFilter2.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/SelectFilter2.js"
+,"sha256": "00cbbff75b9ad6de2b32a1cef786aef3eeb681d4b5931540875578b526a27a7d",
+                    "sha1": "33376dea0c8682cc9c8bc28874973102e4d230f7",
+                    "md5": "58388953117febbca63a8caa1b87277f"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "actions.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/actions.js"
+,"md5": "b700c7dc853c94cfdc9d0aba26e1f4ac",
+            "sha1": "2e04d1cf7212459a355a43c8f7d9fdddae52f677",
+            "sha256": "7af8e713030a988e17730fd6d6730c000ac2b406c0267ab1d415e65fb38142e8"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "actions.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/admin\/js\/actions.js"
+,"sha256": "7af8e713030a988e17730fd6d6730c000ac2b406c0267ab1d415e65fb38142e8",
+                    "sha1": "2e04d1cf7212459a355a43c8f7d9fdddae52f677",
+                    "md5": "b700c7dc853c94cfdc9d0aba26e1f4ac"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "actions.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/actions.js"
+,"md5": "f1d5653edb592c4d14e3592f755e799a",
+            "sha1": "d2eeb3c01f8133c96b3e1ebc3d0d2118f7681dfd",
+            "sha256": "2999e6a620c2ae83bc11c09ac1138974701d5052fced7bbda6a6142f98c72313"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "admin-numeric-filter.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/filters\/static\/unfold\/filters\/js\/admin-numeric-filter.js"
+,"md5": "253218f81befa9638c7659ee1c538f5e",
+            "sha1": "1ec412d8095653e5d0b23e229ebad335b50b75e7",
+            "sha256": "4e72f380c47371e3cb1d2329bf008403c0a8c227e86c6b82212e885d1014e573"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "af.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/af.js"
+,"md5": "4f6fcd73488ce79fae1b7a90aceaecde",
+            "sha1": "bd27657d85f794a98cd823e3fabc500a6e3613f4",
+            "sha256": "229237ba8d7d7e8efb8ccb4de51de97a83f43ab88dfa741f3d8d89e1fb9f77c8"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "af.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/af.js"
+,"sha256": "229237ba8d7d7e8efb8ccb4de51de97a83f43ab88dfa741f3d8d89e1fb9f77c8",
+                    "sha1": "bd27657d85f794a98cd823e3fabc500a6e3613f4",
+                    "md5": "4f6fcd73488ce79fae1b7a90aceaecde"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "alpine.anchor.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/alpine\/alpine.anchor.js"
+,"md5": "e12815977e259285c6df41a4a431a632",
+            "sha1": "68b46ef621b83cd00f42e908df6838967b0395d4",
+            "sha256": "d8983d694abbe3da631729f3aff1f534ade57fe9d7adb1ccb4ef70be5589c884"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "alpine.anchor.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/alpine\/alpine.anchor.js"
+,"sha256": "d8983d694abbe3da631729f3aff1f534ade57fe9d7adb1ccb4ef70be5589c884",
+                    "sha1": "68b46ef621b83cd00f42e908df6838967b0395d4",
+                    "md5": "e12815977e259285c6df41a4a431a632"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "alpine.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/alpine\/alpine.js"
+,"md5": "e42d440fa0ef2c954b0b1b9ea18c899e",
+            "sha1": "63d2636a29eaed5ef7fe23716e95559aef79e4b3",
+            "sha256": "3ed1eed252488921df65e363d6715deb04d7f92aaedb9e52199fdf73cb1e0ad3"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "alpine.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/alpine\/alpine.js"
+,"sha256": "3ed1eed252488921df65e363d6715deb04d7f92aaedb9e52199fdf73cb1e0ad3",
+                    "sha1": "63d2636a29eaed5ef7fe23716e95559aef79e4b3",
+                    "md5": "e42d440fa0ef2c954b0b1b9ea18c899e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "alpine.persist.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/alpine\/alpine.persist.js"
+,"md5": "ab876b01ff8db14fb9a96f089ea3914a",
+            "sha1": "18374db5413b6541336792d09c1f6735fb139a00",
+            "sha256": "8c5070afa7da4eaaa1a77b158b8fd54f1274169685f581993756462e5ff94183"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "alpine.persist.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/alpine\/alpine.persist.js"
+,"sha256": "8c5070afa7da4eaaa1a77b158b8fd54f1274169685f581993756462e5ff94183",
+                    "sha1": "18374db5413b6541336792d09c1f6735fb139a00",
+                    "md5": "ab876b01ff8db14fb9a96f089ea3914a"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "alpine.resize.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/alpine\/alpine.resize.js"
+,"md5": "a02fd86e99bea76c360037ae6959133e",
+            "sha1": "6f63fe7fb4e05d9a81b7eb390d3b777862d2d122",
+            "sha256": "9974762fa9de4f9f3871f34b639fe2983ab90ca8d6d67a17cacedf85bd72c58e"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "alpine.resize.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/alpine\/alpine.resize.js"
+,"sha256": "9974762fa9de4f9f3871f34b639fe2983ab90ca8d6d67a17cacedf85bd72c58e",
+                    "sha1": "6f63fe7fb4e05d9a81b7eb390d3b777862d2d122",
+                    "md5": "a02fd86e99bea76c360037ae6959133e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "alpine.sort.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/alpine\/alpine.sort.js"
+,"md5": "02b1209e60d4393e761dd62c8a277673",
+            "sha1": "c86b88f82d3904938b734ca0265f93fbf30d3fe1",
+            "sha256": "b45285878c9624e60debd1e8961f430e349cb5b2e65ac5a01d02c3ae82409e3c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "alpine.sort.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/alpine\/alpine.sort.js"
+,"sha256": "b45285878c9624e60debd1e8961f430e349cb5b2e65ac5a01d02c3ae82409e3c",
+                    "sha1": "c86b88f82d3904938b734ca0265f93fbf30d3fe1",
+                    "md5": "02b1209e60d4393e761dd62c8a277673"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "app.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/app.js"
+,"md5": "390dda54a4c1977ad0d0973c99f2f095",
+            "sha1": "0bf0210087d5ae8145c7db1bccfc1082cda28fcd",
+            "sha256": "be01a34d18a89dc961f6d96e8f5a98c5fa53553ce35c8cebd19076c3b56a6be4"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "app.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/app.js"
+,"sha256": "be01a34d18a89dc961f6d96e8f5a98c5fa53553ce35c8cebd19076c3b56a6be4",
+                    "sha1": "0bf0210087d5ae8145c7db1bccfc1082cda28fcd",
+                    "md5": "390dda54a4c1977ad0d0973c99f2f095"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ar.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ar.js"
+,"md5": "65aa8e36bf5da57ff4e3f22a835ab035",
+            "sha1": "1bbbdd68b643a31797bbea0c1159fa83696cb6b4",
+            "sha256": "cf1437a5e4a76d521fac7d4d763c780eb1c3b266e9aaeea67deca555614ce666"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ar.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ar.js"
+,"sha256": "cf1437a5e4a76d521fac7d4d763c780eb1c3b266e9aaeea67deca555614ce666",
+                    "sha1": "1bbbdd68b643a31797bbea0c1159fa83696cb6b4",
+                    "md5": "65aa8e36bf5da57ff4e3f22a835ab035"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "autocomplete.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/autocomplete.js"
+,"md5": "01591ab27be76a799fe8051c4e81ab91",
+            "sha1": "8062e3f6442b950539157cb389f6c30f114fb5ef",
+            "sha256": "380a924e21d99d3599cc9284bce9be675b5d0252e33d65fd8caa589261f43b3a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "autocomplete.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/autocomplete.js"
+,"sha256": "380a924e21d99d3599cc9284bce9be675b5d0252e33d65fd8caa589261f43b3a",
+                    "sha1": "8062e3f6442b950539157cb389f6c30f114fb5ef",
+                    "md5": "01591ab27be76a799fe8051c4e81ab91"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "az.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/az.js"
+,"md5": "270c257daf8140a0cf23ad5de6f8ed1b",
+            "sha1": "f9dd0a0cc99499d72f60ead79977af34f0ccc221",
+            "sha256": "37f294edfb688dfd8782f2519693fc2aa1ba84a21baa28183772b4607fdcb6e4"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "az.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/az.js"
+,"sha256": "37f294edfb688dfd8782f2519693fc2aa1ba84a21baa28183772b4607fdcb6e4",
+                    "sha1": "f9dd0a0cc99499d72f60ead79977af34f0ccc221",
+                    "md5": "270c257daf8140a0cf23ad5de6f8ed1b"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bg.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/bg.js"
+,"md5": "39b8be30d4f06779839cfaaa415d0690",
+            "sha1": "2c052dd7b3af2c00e3beed92b7012876b3bdaeaf",
+            "sha256": "e59e889479ae93fe8875974056f7628179e58fb20e68a5ed723b88d27d059984"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "bg.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/bg.js"
+,"sha256": "e59e889479ae93fe8875974056f7628179e58fb20e68a5ed723b88d27d059984",
+                    "sha1": "2c052dd7b3af2c00e3beed92b7012876b3bdaeaf",
+                    "md5": "39b8be30d4f06779839cfaaa415d0690"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bn.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/bn.js"
+,"md5": "6d42b4dd5665d0fa28f06994eedb4899",
+            "sha1": "b59ea9a01f183503044ecddc8ceb1ca7c18dc566",
+            "sha256": "c1d41b81ac59e3b4f21a5c2fb28ec63a3a664d750a696cef554affa0245e9841"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "bn.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/bn.js"
+,"sha256": "c1d41b81ac59e3b4f21a5c2fb28ec63a3a664d750a696cef554affa0245e9841",
+                    "sha1": "b59ea9a01f183503044ecddc8ceb1ca7c18dc566",
+                    "md5": "6d42b4dd5665d0fa28f06994eedb4899"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "bs.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/bs.js"
+,"md5": "91624382358e95086b80f00fa0bd6955",
+            "sha1": "9f7dfbf022b5d25e8fb56b6233acb1cbbabbd2e7",
+            "sha256": "839ea4592bbd471ca1feb6ab2d20daffc9eb76a2f9d49a996a2e10431db48f04"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "bs.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/bs.js"
+,"sha256": "839ea4592bbd471ca1feb6ab2d20daffc9eb76a2f9d49a996a2e10431db48f04",
+                    "sha1": "9f7dfbf022b5d25e8fb56b6233acb1cbbabbd2e7",
+                    "md5": "91624382358e95086b80f00fa0bd6955"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ca.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ca.js"
+,"md5": "a166b745933a48ce3d0580a74210617d",
+            "sha1": "31a8bff3894ec89ec790905d74a75dc743fb0be3",
+            "sha256": "0d2cb2017254234c13a7f4db1612cd1ab82f811b0659e57721a7f16141818203"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ca.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ca.js"
+,"sha256": "0d2cb2017254234c13a7f4db1612cd1ab82f811b0659e57721a7f16141818203",
+                    "sha1": "31a8bff3894ec89ec790905d74a75dc743fb0be3",
+                    "md5": "a166b745933a48ce3d0580a74210617d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "calendar.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/calendar.js"
+,"md5": "d64496bbf46d9736dd202dbd806965c3",
+            "sha1": "2896eb6daf16e25c32a8b3eee18b8d783a8af7b6",
+            "sha256": "723eaa3eb4aa7567aafce9d6514296cb88d51828b2e18c6c6d76b92a1530febe"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "calendar.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/calendar.js"
+,"sha256": "723eaa3eb4aa7567aafce9d6514296cb88d51828b2e18c6c6d76b92a1530febe",
+                    "sha1": "2896eb6daf16e25c32a8b3eee18b8d783a8af7b6",
+                    "md5": "d64496bbf46d9736dd202dbd806965c3"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "cancel.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/cancel.js"
+,"md5": "ecc4c5ca7b320db9ec67785d7ab4bc65",
+            "sha1": "025088d67aff212434c181af4587876aba632c7c",
+            "sha256": "50465dbef5aee6ce191f5ea515fc5af143e05972778bc56c78ae4b730d8aade8"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "cancel.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/cancel.js"
+,"sha256": "50465dbef5aee6ce191f5ea515fc5af143e05972778bc56c78ae4b730d8aade8",
+                    "sha1": "025088d67aff212434c181af4587876aba632c7c",
+                    "md5": "ecc4c5ca7b320db9ec67785d7ab4bc65"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "change_form.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/change_form.js"
+,"md5": "9d8ca4f96b75fc3c53e3f05c5a7bfb4e",
+            "sha1": "ac553485b96e30d304aec424df49765dfde19bc5",
+            "sha256": "cce4de3910aad62f575d5fec6920410ce5dba2ee54b59bf1605a553eac50d364"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "change_form.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/change_form.js"
+,"sha256": "cce4de3910aad62f575d5fec6920410ce5dba2ee54b59bf1605a553eac50d364",
+                    "sha1": "ac553485b96e30d304aec424df49765dfde19bc5",
+                    "md5": "9d8ca4f96b75fc3c53e3f05c5a7bfb4e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "chart.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/chart\/chart.js"
+,"md5": "1c7c04818b71cc22c1ba14e54131cc28",
+            "sha1": "f0fac5581e4261aa6078d72874add9cc5006614c",
+            "sha256": "db65ba70511147e08494c38a46030c89cb9e3153f455fec50440581fc67cb429"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "chart.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/chart\/chart.js"
+,"sha256": "db65ba70511147e08494c38a46030c89cb9e3153f455fec50440581fc67cb429",
+                    "sha1": "f0fac5581e4261aa6078d72874add9cc5006614c",
+                    "md5": "1c7c04818b71cc22c1ba14e54131cc28"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "cli-32.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/cli-32.exe"
+,"md5": "46e9a273d6587191b512fd1050dc1fc4",
+            "sha1": "015535f3274f28cf0b01a3e858de4ecf9fb4ef34",
+            "sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "cli.exe",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/cli.exe"
+,"sha256": "32acc1bc543116cbe2cff10cb867772df2f254ff2634c870aef0b46c4b696fdb",
+                    "sha1": "015535f3274f28cf0b01a3e858de4ecf9fb4ef34",
+                    "md5": "46e9a273d6587191b512fd1050dc1fc4"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "cli-32"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "cli-32"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "cli-32"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "32"
+                    }
+                ]
+            }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:cli_project:cli:*:*:*:*:*:node.js:*:*"
+,"confidence": "MEDIUM","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Acli_project%3Acli%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2016-10538",
+                    "severity" : "LOW",
+                    "cvssv2": {
+                        "score": 4.9
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "SINGLE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "6.8","impactScore": "4.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 3.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "LOW"
+,"exploitabilityScore": "2.1","impactScore": "1.4","version": "3.0"                    },
+                    "cwes": [
+                        "CWE-22",                        "CWE-362"                    ],
+                "description": "The package `node-cli` before 1.0.0 insecurely uses the lock_file and log_file. Both of these are temporary, but it allows the starting user to overwrite any file they have access to.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/bugs.debian.org\/cgi-bin\/bugreport.cgi?bug=809252","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/nodesecurity.io\/advisories\/95","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/bugs.debian.org\/cgi-bin\/bugreport.cgi?bug=809252","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/github.com\/node-js-libs\/cli\/issues\/81","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/node-js-libs\/cli\/issues\/81","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/nodesecurity.io\/advisories\/95","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:cli_project:cli:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.0.0"                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "cli-64.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/cli-64.exe"
+,"md5": "91538df53511be83ee84a43e97430041",
+            "sha1": "32f4a73f1f15e2cc04da20dffd60e5aa40d32466",
+            "sha256": "bbb3de5707629e6a60a0c238cd477b28f07f0066982fda953fa6fcec39073a4a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "cli-arm64.exe",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/cli-arm64.exe"
+,"sha256": "b9a7d08da880dfac8bcf548eba4b06fb59b6f09b17d33148a0f6618328926c61",
+                    "sha1": "463cf7b9a2334eb33d5e89e33a164e74dce6d0e9",
+                    "md5": "526c3500e7d91efbe8e4242d7eb7e985"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "cli-64"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "cli-64"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "cli-64"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:cli_project:cli:*:*:*:*:*:node.js:*:*"
+,"confidence": "MEDIUM","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Acli_project%3Acli%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+            ,"vulnerabilities": [
+ {
+                "source": "NVD",
+                "name": "CVE-2016-10538",
+                    "severity" : "LOW",
+                    "cvssv2": {
+                        "score": 4.9
+                        ,"accessVector": "NETWORK"
+                        ,"accessComplexity": "MEDIUM"
+                        ,"authenticationr": "SINGLE"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "PARTIAL"
+                        ,"availabilityImpact": "PARTIAL"
+                        ,"severity": "MEDIUM"
+,"version": "2.0","exploitabilityScore": "6.8","impactScore": "4.9","userInteractionRequired": "true"                    },
+                    "cvssv3": {
+                        "baseScore": 3.5
+                        ,"attackVector": "NETWORK"
+                        ,"attackComplexity": "LOW"
+                        ,"privilegesRequired": "LOW"
+                        ,"userInteraction": "REQUIRED"
+                        ,"scope": "UNCHANGED"
+                        ,"confidentialityImpact": "NONE"
+                        ,"integrityImpact": "LOW"
+                        ,"availabilityImpact": "NONE"
+                        ,"baseSeverity": "LOW"
+,"exploitabilityScore": "2.1","impactScore": "1.4","version": "3.0"                    },
+                    "cwes": [
+                        "CWE-22",                        "CWE-362"                    ],
+                "description": "The package `node-cli` before 1.0.0 insecurely uses the lock_file and log_file. Both of these are temporary, but it allows the starting user to overwrite any file they have access to.",
+                "notes": "",
+                "references": [
+ {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/bugs.debian.org\/cgi-bin\/bugreport.cgi?bug=809252","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/nodesecurity.io\/advisories\/95","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/bugs.debian.org\/cgi-bin\/bugreport.cgi?bug=809252","name": "THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "support@hackerone.com"
+,"url": "https:\/\/github.com\/node-js-libs\/cli\/issues\/81","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/github.com\/node-js-libs\/cli\/issues\/81","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }, {
+                        "source": "af854a3a-2127-422b-91ae-364da2661108"
+,"url": "https:\/\/nodesecurity.io\/advisories\/95","name": "EXPLOIT,THIRD_PARTY_ADVISORY"                    }                ],
+                "vulnerableSoftware": [
+ {
+                        "software": { 
+                            "id":"cpe:2.3:a:cli_project:cli:*:*:*:*:*:node.js:*:*"
+,"vulnerabilityIdMatched":"true","versionEndExcluding":"1.0.0"                        }
+                    }                ]
+                }            ]        },{
+            "isVirtual": false,
+            "fileName": "core.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/core.js"
+,"md5": "7e257fdf56dc00a1969102a9518778e2",
+            "sha1": "54e10064e0bc5034ebcd312279db09a81f4abcef",
+            "sha256": "1f8fd8669d81dd8f49c4c64fa47295badad46496c065de07e8673e8a549be3f1"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "core.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/core.js"
+,"sha256": "1f8fd8669d81dd8f49c4c64fa47295badad46496c065de07e8673e8a549be3f1",
+                    "sha1": "54e10064e0bc5034ebcd312279db09a81f4abcef",
+                    "md5": "7e257fdf56dc00a1969102a9518778e2"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "cs.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/cs.js"
+,"md5": "4f43e8e7d33aa1e6aadf3286c7e379e9",
+            "sha1": "8663563801779f80f8520d9de3816f01e3bded03",
+            "sha256": "b7ff0e5958ba632dbd29a6eab3f975b0cd924ab8d4020653c1b4d7fe6d0c08bf"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "cs.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/cs.js"
+,"sha256": "b7ff0e5958ba632dbd29a6eab3f975b0cd924ab8d4020653c1b4d7fe6d0c08bf",
+                    "sha1": "8663563801779f80f8520d9de3816f01e3bded03",
+                    "md5": "4f43e8e7d33aa1e6aadf3286c7e379e9"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "da.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/da.js"
+,"md5": "766346afe4dd72c003242cfb1cbe2617",
+            "sha1": "3d0805129d121b1464ff60c051214c44579089fe",
+            "sha256": "b45da6bf315849660e537624b65dc6f77a4291ff95f60a270b193b85c039275a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "da.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/da.js"
+,"sha256": "b45da6bf315849660e537624b65dc6f77a4291ff95f60a270b193b85c039275a",
+                    "sha1": "3d0805129d121b1464ff60c051214c44579089fe",
+                    "md5": "766346afe4dd72c003242cfb1cbe2617"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "de.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/de.js"
+,"md5": "8a1c222b0204c8faaf6d3c07c961d8aa",
+            "sha1": "34d96c160f63b2d5ec4a12d4c38b65c60761e45b",
+            "sha256": "e5bb297dc8a1329f325c3c1f72abc2fe75774136ed06e403991ddced43d0b45c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "de.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/de.js"
+,"sha256": "e5bb297dc8a1329f325c3c1f72abc2fe75774136ed06e403991ddced43d0b45c",
+                    "sha1": "34d96c160f63b2d5ec4a12d4c38b65c60761e45b",
+                    "md5": "8a1c222b0204c8faaf6d3c07c961d8aa"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "dsb.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/dsb.js"
+,"md5": "56372c92d2f1bcb2b8e382981dca0546",
+            "sha1": "9c49670161af95125600eeb804956639899b4b81",
+            "sha256": "2ad3f6c4da0fef9a169e86d4ad2ec4a7f04e14fcdc30d0edd30c8f9e46c817f4"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "dsb.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/dsb.js"
+,"sha256": "2ad3f6c4da0fef9a169e86d4ad2ec4a7f04e14fcdc30d0edd30c8f9e46c817f4",
+                    "sha1": "9c49670161af95125600eeb804956639899b4b81",
+                    "md5": "56372c92d2f1bcb2b8e382981dca0546"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "el.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/el.js"
+,"md5": "27097f071856a0f4e82298fe407d1eac",
+            "sha1": "a7a7d0e4a8f5e9d99c5c0621d48bd1852fc811db",
+            "sha256": "21dbc3f1e63f2a95fd7dd1ef95ddce32f41f62c9daa098c37959206c87a67e7f"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "el.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/el.js"
+,"sha256": "21dbc3f1e63f2a95fd7dd1ef95ddce32f41f62c9daa098c37959206c87a67e7f",
+                    "sha1": "a7a7d0e4a8f5e9d99c5c0621d48bd1852fc811db",
+                    "md5": "27097f071856a0f4e82298fe407d1eac"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "emscripten_fetch_worker.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/urllib3\/contrib\/emscripten\/emscripten_fetch_worker.js"
+,"md5": "61e482fefc658e27c22400932fe5fba9",
+            "sha1": "7f4135b5d6fe3a6dabb5363ba700ca9890550bb5",
+            "sha256": "cf5937cd9e3f84329ddfeb4def0cf3f0b1e31c2da9c4dfeebbc07793d0fd0377"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "emscripten_fetch_worker.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/urllib3\/contrib\/emscripten\/emscripten_fetch_worker.js"
+,"sha256": "cf5937cd9e3f84329ddfeb4def0cf3f0b1e31c2da9c4dfeebbc07793d0fd0377",
+                    "sha1": "7f4135b5d6fe3a6dabb5363ba700ca9890550bb5",
+                    "md5": "61e482fefc658e27c22400932fe5fba9"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "en.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/en.js"
+,"md5": "cf932ba09a98fe11bde8e1f3dd5e2cfa",
+            "sha1": "6bb5c48e18078a5688c6f7e187cf3c44057cbc1e",
+            "sha256": "0bae803be28e5cdb97116c21c1f8d80456b7806708cec3c51d0019f6a4a1dc6a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "en.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/en.js"
+,"sha256": "0bae803be28e5cdb97116c21c1f8d80456b7806708cec3c51d0019f6a4a1dc6a",
+                    "sha1": "6bb5c48e18078a5688c6f7e187cf3c44057cbc1e",
+                    "md5": "cf932ba09a98fe11bde8e1f3dd5e2cfa"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "es.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/es.js"
+,"md5": "66dbc2652fb1b769bf29058e707b43c8",
+            "sha1": "b8097715cfd7fea831f2551664585f33302f1c28",
+            "sha256": "22165a232f2e7d376e3b6faf06b8afb303028e53e4eefae4e0ff35a43e81d123"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "es.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/es.js"
+,"sha256": "22165a232f2e7d376e3b6faf06b8afb303028e53e4eefae4e0ff35a43e81d123",
+                    "sha1": "b8097715cfd7fea831f2551664585f33302f1c28",
+                    "md5": "66dbc2652fb1b769bf29058e707b43c8"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "et.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/et.js"
+,"md5": "2b96fd98289dc3fc5e61f21e6e1a7d52",
+            "sha1": "62b8dc201a6071d1c9ae4d0cc5cf419dce71ed89",
+            "sha256": "2e02e074e90a8dceb7b2fc4fd546bb034cded4be96aefd17ea7a7ef22443e73c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "et.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/et.js"
+,"sha256": "2e02e074e90a8dceb7b2fc4fd546bb034cded4be96aefd17ea7a7ef22443e73c",
+                    "sha1": "62b8dc201a6071d1c9ae4d0cc5cf419dce71ed89",
+                    "md5": "2b96fd98289dc3fc5e61f21e6e1a7d52"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "eu.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/eu.js"
+,"md5": "adfe5c97b72c20bb0afbc0968b440e50",
+            "sha1": "f727bb4876f26a81d4961277f4f4d900dfb0f84f",
+            "sha256": "acb9ad3fb6c0fdab643488fcd65feb89333b7e2e425f156b1411c5c9d74ef87c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "eu.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/eu.js"
+,"sha256": "acb9ad3fb6c0fdab643488fcd65feb89333b7e2e425f156b1411c5c9d74ef87c",
+                    "sha1": "f727bb4876f26a81d4961277f4f4d900dfb0f84f",
+                    "md5": "adfe5c97b72c20bb0afbc0968b440e50"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "fa.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/fa.js"
+,"md5": "3b5bd1961cfd0a6f96ac4cd2ea16c243",
+            "sha1": "e78d4a277fa39d48c3b0ffe479315a17e8c1f62b",
+            "sha256": "7ea66413d7bcb6ddab67b3ab0c63e23ac4cd763dd2dabd028db75d55404378c0"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "fa.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/fa.js"
+,"sha256": "7ea66413d7bcb6ddab67b3ab0c63e23ac4cd763dd2dabd028db75d55404378c0",
+                    "sha1": "e78d4a277fa39d48c3b0ffe479315a17e8c1f62b",
+                    "md5": "3b5bd1961cfd0a6f96ac4cd2ea16c243"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "fi.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/fi.js"
+,"md5": "614ec42aa9baaf687ab9ff44705dfd2e",
+            "sha1": "d9ca619500907f7fdd94e2a3eb665406719280d7",
+            "sha256": "2951a2ae118635e7bf888a4c18b5f91331ff52435ef8538f0bfd38f381be410d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "fi.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/fi.js"
+,"sha256": "2951a2ae118635e7bf888a4c18b5f91331ff52435ef8538f0bfd38f381be410d",
+                    "sha1": "d9ca619500907f7fdd94e2a3eb665406719280d7",
+                    "md5": "614ec42aa9baaf687ab9ff44705dfd2e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "filters.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/filters.js"
+,"md5": "0e360b7a9f80ef8889781e59bc828e65",
+            "sha1": "35414faa92b8927b54ccad0ba4fe2155b622576b",
+            "sha256": "4fe265aea64405259b885c3f7b997190cca4900096a965ddff0332f9bdd39da1"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "filters.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/filters.js"
+,"sha256": "4fe265aea64405259b885c3f7b997190cca4900096a965ddff0332f9bdd39da1",
+                    "sha1": "35414faa92b8927b54ccad0ba4fe2155b622576b",
+                    "md5": "0e360b7a9f80ef8889781e59bc828e65"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "fr.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/fr.js"
+,"md5": "05e0542fcfe6df5ab074a377dc1a5a9b",
+            "sha1": "bca64003d563451801651fb42ca8a1e0ca8055b4",
+            "sha256": "6a3d2adab749378ec144173d2eabec83192e3ce71601b66c5055256e0bb0758d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "fr.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/fr.js"
+,"sha256": "6a3d2adab749378ec144173d2eabec83192e3ce71601b66c5055256e0bb0758d",
+                    "sha1": "bca64003d563451801651fb42ca8a1e0ca8055b4",
+                    "md5": "05e0542fcfe6df5ab074a377dc1a5a9b"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "gl.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/gl.js"
+,"md5": "d99b1fedaa86d011818cfbab11dd355c",
+            "sha1": "becb10526bb68f70db2867f5a2e3b79fe7117aa1",
+            "sha256": "1d225a7c8f39c8aa785b38c53d3e7fdde67ff9740360fcf37f80569aeeae5c79"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "gl.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/gl.js"
+,"sha256": "1d225a7c8f39c8aa785b38c53d3e7fdde67ff9740360fcf37f80569aeeae5c79",
+                    "sha1": "becb10526bb68f70db2867f5a2e3b79fe7117aa1",
+                    "md5": "d99b1fedaa86d011818cfbab11dd355c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "gui-32.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/gui-32.exe"
+,"md5": "75c5a3d1bced4988376ba6148fa075e1",
+            "sha1": "418b4d0ee1459ae958185c5620fd326107b60dad",
+            "sha256": "85dae1e95d77845f2cb59bcac3d4afe74bbe4c91a9bcc5bf4a71cd43104dbe7c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "gui.exe",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/gui.exe"
+,"sha256": "85dae1e95d77845f2cb59bcac3d4afe74bbe4c91a9bcc5bf4a71cd43104dbe7c",
+                    "sha1": "418b4d0ee1459ae958185c5620fd326107b60dad",
+                    "md5": "75c5a3d1bced4988376ba6148fa075e1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-32"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-32"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "gui-32"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "32"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "gui-64.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/gui-64.exe"
+,"md5": "63c39cca963d7e1639f4e69c071e4a96",
+            "sha1": "b9a4181165b5864760055cdf7dc2d360fbf885c0",
+            "sha256": "3471b6140eadc6412277dbbefe3fef8c345a0f1a59776086b80a3618c3a83e3b"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-64"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-64"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "gui-64"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "gui-arm64.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/setuptools\/gui-arm64.exe"
+,"md5": "a67384acb67590ccc065a05c1e2ae16a",
+            "sha1": "aa7e72efcaf8b2dfc2f04b6ff17ed42d7233e397",
+            "sha256": "e694f4743405c8b5926ff457db6fe7f1a12dec7c16a9c3864784d3f4e07ae097"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-arm64"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "gui-arm64"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "gui-arm64"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "he.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/he.js"
+,"md5": "e420ff6cd3ed77ab9271c9b3d441442c",
+            "sha1": "a72ac85ea6faeac10150fa6b2330521984afba73",
+            "sha256": "0c83d1287c343640ee52d2cd19d4e76197280a2377bacb4763e50c9b0df857fb"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "he.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/he.js"
+,"sha256": "0c83d1287c343640ee52d2cd19d4e76197280a2377bacb4763e50c9b0df857fb",
+                    "sha1": "a72ac85ea6faeac10150fa6b2330521984afba73",
+                    "md5": "e420ff6cd3ed77ab9271c9b3d441442c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "hi.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/hi.js"
+,"md5": "70640d41628f36284af78b22ea8b283b",
+            "sha1": "e245a22c99a774992cef23c5abc825ce8811c022",
+            "sha256": "9ba66a88a67f8f3c33545802f2f9188b0cb8947e5f244315f8b4cf54ed96bb8d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "hi.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/hi.js"
+,"sha256": "9ba66a88a67f8f3c33545802f2f9188b0cb8947e5f244315f8b4cf54ed96bb8d",
+                    "sha1": "e245a22c99a774992cef23c5abc825ce8811c022",
+                    "md5": "70640d41628f36284af78b22ea8b283b"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "hr.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/hr.js"
+,"md5": "a2b092cc1147f07b978145d407c67fa1",
+            "sha1": "a1808a4f9778cb577615b601eb429b5dc88cde7a",
+            "sha256": "35c9539434e23455f5cb45b52e58f5d3e648a1751877bbc35eac9e509eefdc1e"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "hr.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/hr.js"
+,"sha256": "35c9539434e23455f5cb45b52e58f5d3e648a1751877bbc35eac9e509eefdc1e",
+                    "sha1": "a1808a4f9778cb577615b601eb429b5dc88cde7a",
+                    "md5": "a2b092cc1147f07b978145d407c67fa1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "hsb.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/hsb.js"
+,"md5": "fa3b55265efe8f4182d5e65a1a506252",
+            "sha1": "2a263d9c688cd7aa09cafd6c31769ea0ed28529b",
+            "sha256": "1532eccdcac669e9535bae96579d2efeb4ba1d5d1267143a561a62dad9e00ba3"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "hsb.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/hsb.js"
+,"sha256": "1532eccdcac669e9535bae96579d2efeb4ba1d5d1267143a561a62dad9e00ba3",
+                    "sha1": "2a263d9c688cd7aa09cafd6c31769ea0ed28529b",
+                    "md5": "fa3b55265efe8f4182d5e65a1a506252"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "htmx.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/htmx\/htmx.js"
+,"md5": "13f08cce9f7b2cdf5384d8a27285ba65",
+            "sha1": "d2592f3a2d5e2324183ac70e39b2437ff1af43a6",
+            "sha256": "69caefd0da92269066e725d7fe175e26b9d50c962e3056459c0c477154cdb9d3"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "htmx.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/htmx\/htmx.js"
+,"sha256": "69caefd0da92269066e725d7fe175e26b9d50c962e3056459c0c477154cdb9d3",
+                    "sha1": "d2592f3a2d5e2324183ac70e39b2437ff1af43a6",
+                    "md5": "13f08cce9f7b2cdf5384d8a27285ba65"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "hu.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/hu.js"
+,"md5": "6ec6039cb8a354e2bc6a1794f729caae",
+            "sha1": "86519e4eb4cf552a2b084bf118d6c9173658935a",
+            "sha256": "dcf7549344a91d8f87fa1eb6c289b0e00cb244cba394673afe8c56f8bd56c8eb"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "hu.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/hu.js"
+,"sha256": "dcf7549344a91d8f87fa1eb6c289b0e00cb244cba394673afe8c56f8bd56c8eb",
+                    "sha1": "86519e4eb4cf552a2b084bf118d6c9173658935a",
+                    "md5": "6ec6039cb8a354e2bc6a1794f729caae"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "hy.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/hy.js"
+,"md5": "c7babaeef5a625566434ea79b19d4c7e",
+            "sha1": "73d8c0aac67d5a67e0a427b9f72607500a0a0f15",
+            "sha256": "04b8747e7b6bc2dc0dc254288b02e4750395c8d5c77664692f6f29f96e45b038"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "hy.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/hy.js"
+,"sha256": "04b8747e7b6bc2dc0dc254288b02e4750395c8d5c77664692f6f29f96e45b038",
+                    "sha1": "73d8c0aac67d5a67e0a427b9f72607500a0a0f15",
+                    "md5": "c7babaeef5a625566434ea79b19d4c7e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "i18n_catalog.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/views\/templates\/i18n_catalog.js"
+,"md5": "4b1cc10337ab829d5690d5fbaa368068",
+            "sha1": "d629d2e7575b99f3315c59d758160fc9c2383413",
+            "sha256": "5933c9c5ac0ac1d391a35da0f48fe6527e18494e97c7e0c2c7a134eb22812994"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "id.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/id.js"
+,"md5": "04debded514d3962bb74f05532e793d4",
+            "sha1": "054f5612ea6f8de585cb7c3d534dd621039e32d2",
+            "sha256": "7c627ef80c3bd0fa739371202e317557f42fa83daafee7d78e740823266a6207"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "id.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/id.js"
+,"sha256": "7c627ef80c3bd0fa739371202e317557f42fa83daafee7d78e740823266a6207",
+                    "sha1": "054f5612ea6f8de585cb7c3d534dd621039e32d2",
+                    "md5": "04debded514d3962bb74f05532e793d4"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "inlines.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/inlines.js"
+,"md5": "89b3c627c5dc2e92584e824929130fa0",
+            "sha1": "2128eebe15148ce8996d6e971edf74d1f94f71ee",
+            "sha256": "d48633adb736dac091477ec2206feebeee88e3e6e486aedb21c584e4b49be0ec"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "inlines.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/inlines.js"
+,"sha256": "d48633adb736dac091477ec2206feebeee88e3e6e486aedb21c584e4b49be0ec",
+                    "sha1": "2128eebe15148ce8996d6e971edf74d1f94f71ee",
+                    "md5": "89b3c627c5dc2e92584e824929130fa0"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "is.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/is.js"
+,"md5": "3ddd9a6a97e93e1910210c9eefc1bca1",
+            "sha1": "3f4f203545d0db2db770ccbaf5591aa2ef6000ef",
+            "sha256": "827d1d748a939c95f8c24fad582e6014e449b357648081fd30ec0b96306e40ad"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "is.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/is.js"
+,"sha256": "827d1d748a939c95f8c24fad582e6014e449b357648081fd30ec0b96306e40ad",
+                    "sha1": "3f4f203545d0db2db770ccbaf5591aa2ef6000ef",
+                    "md5": "3ddd9a6a97e93e1910210c9eefc1bca1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "it.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/it.js"
+,"md5": "be4fe8d365b5916432504d1f98e2e0af",
+            "sha1": "d5a02fc223ea3e048dace02ae8757daf67ccf3af",
+            "sha256": "906c6d6a9c214458f7bbf22163fef359984a811e42ad99a66ac4f9c3e6a85d13"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "it.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/it.js"
+,"sha256": "906c6d6a9c214458f7bbf22163fef359984a811e42ad99a66ac4f9c3e6a85d13",
+                    "sha1": "d5a02fc223ea3e048dace02ae8757daf67ccf3af",
+                    "md5": "be4fe8d365b5916432504d1f98e2e0af"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ja.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ja.js"
+,"md5": "170ae885d74f1634271e1eb470cb4621",
+            "sha1": "b1cfbd2dd7f578238b3d36eea42331dc0b87d73e",
+            "sha256": "b59e2ca9dc7f4847096e25b9f9ca070d5f0556612525103767cdb61051e48cb3"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ja.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ja.js"
+,"sha256": "b59e2ca9dc7f4847096e25b9f9ca070d5f0556612525103767cdb61051e48cb3",
+                    "sha1": "b1cfbd2dd7f578238b3d36eea42331dc0b87d73e",
+                    "md5": "170ae885d74f1634271e1eb470cb4621"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.ajaxQueue.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django_extensions\/static\/django_extensions\/js\/jquery.ajaxQueue.js"
+,"md5": "5fc2188f8a160e284fed09dda4bdd362",
+            "sha1": "4bfa7c4e7f939c7e0d2d60881ab894877dede7b7",
+            "sha256": "84fac98109fd00e58fe5f8b1bc9dadcbafe770f0ca5c6b56de18d963aa26a3bd"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.autocomplete.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django_extensions\/static\/django_extensions\/js\/jquery.autocomplete.js"
+,"md5": "26e55daaf7c51bddf19c17a67447952a",
+            "sha1": "6e18c1393fcafc9c63e3a2461df1a28311535c5c",
+            "sha256": "e4357dcf137a4e05696e4b1caa592888ae6a844106766c55dafedddbae504288"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.bgiframe.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django_extensions\/static\/django_extensions\/js\/jquery.bgiframe.js"
+,"md5": "68c9c05397e9c0bccab6c3e8e47b262d",
+            "sha1": "baf5954c9344b7a4cf0f9192987c99541e73af83",
+            "sha256": "002163c1ef627b98b82f2b14fb0f60a62b07682cc76d2d2410eb482f451c0cce"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.init.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/jquery.init.js"
+,"md5": "b7781a0897fc89389201ee3da15e900f",
+            "sha1": "09f22eba7bb4eac1cbc1746061f6050fc329cc1d",
+            "sha256": "b8cfca7fb10e04c8a97029ae4076f2b9b424c9c95e4960c24bcf9cdd67af156d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "jquery.init.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/jquery.init.js"
+,"sha256": "b8cfca7fb10e04c8a97029ae4076f2b9b424c9c95e4960c24bcf9cdd67af156d",
+                    "sha1": "09f22eba7bb4eac1cbc1746061f6050fc329cc1d",
+                    "md5": "b7781a0897fc89389201ee3da15e900f"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/jquery\/jquery.js"
+,"md5": "12e87d2f3a4c8b347ab13a0764d420a3",
+            "sha1": "4be715e11048c057fdf2ee0fbbfad4dbf3504c55",
+            "sha256": "78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "jquery.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/jquery\/jquery.js"
+,"sha256": "78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe",
+                    "sha1": "4be715e11048c057fdf2ee0fbbfad4dbf3504c55",
+                    "md5": "12e87d2f3a4c8b347ab13a0764d420a3"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "jquery.min.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/jquery\/jquery.min.js"
+,"md5": "2c872dbe60f4ba70fb85356113d8b35e",
+            "sha1": "ee48592d1fff952fcf06ce0b666ed4785493afdc",
+            "sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "jquery.min.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/jquery\/jquery.min.js"
+,"sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+                    "sha1": "ee48592d1fff952fcf06ce0b666ed4785493afdc",
+                    "md5": "2c872dbe60f4ba70fb85356113d8b35e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ka.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ka.js"
+,"md5": "2083264a54f0873f55468affa796d61e",
+            "sha1": "9126533d06719d2ae3535929b98b77c34798a0fb",
+            "sha256": "0c7e95ae755d47c497ea4b28dadcea9c9aacdf6b82a41372bcff4ac6cdecb232"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ka.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ka.js"
+,"sha256": "0c7e95ae755d47c497ea4b28dadcea9c9aacdf6b82a41372bcff4ac6cdecb232",
+                    "sha1": "9126533d06719d2ae3535929b98b77c34798a0fb",
+                    "md5": "2083264a54f0873f55468affa796d61e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "km.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/km.js"
+,"md5": "c23089cb06ca871153ba9bfe8458a378",
+            "sha1": "282bb56ddafc416b655c04f9ae0f1168220cd6fc",
+            "sha256": "c7d8728de9e77358b4a1e62b1541d09d81da917a6fed60fb31217e73d01a4e38"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "km.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/km.js"
+,"sha256": "c7d8728de9e77358b4a1e62b1541d09d81da917a6fed60fb31217e73d01a4e38",
+                    "sha1": "282bb56ddafc416b655c04f9ae0f1168220cd6fc",
+                    "md5": "c23089cb06ca871153ba9bfe8458a378"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ko.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ko.js"
+,"md5": "e7be6c20e67393698a0f05971e9720c1",
+            "sha1": "6a75b8c4cc0ea56cf7bed9cb2f9c46c1d43ccfcd",
+            "sha256": "226981f6fee0d9928498f15441e5eb2fbdb75448db8845b761e9717aa1c48077"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ko.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ko.js"
+,"sha256": "226981f6fee0d9928498f15441e5eb2fbdb75448db8845b761e9717aa1c48077",
+                    "sha1": "6a75b8c4cc0ea56cf7bed9cb2f9c46c1d43ccfcd",
+                    "md5": "e7be6c20e67393698a0f05971e9720c1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "lt.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/lt.js"
+,"md5": "23c7ce903300fc118947994b9cdd16cb",
+            "sha1": "081c69be56387d5b25252aae96420b9f4121f3bf",
+            "sha256": "653fb8e626d5c1d5a74f2a3e4eab2a5b6363229f73c38c6ce52a3bf0a31bfecf"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "lt.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/lt.js"
+,"sha256": "653fb8e626d5c1d5a74f2a3e4eab2a5b6363229f73c38c6ce52a3bf0a31bfecf",
+                    "sha1": "081c69be56387d5b25252aae96420b9f4121f3bf",
+                    "md5": "23c7ce903300fc118947994b9cdd16cb"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "lv.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/lv.js"
+,"md5": "08e62128eac1d0e8ac32cfaf75f2ec9f",
+            "sha1": "0ce547e78b10bf52a69c557b96edb3f30f262d59",
+            "sha256": "847a442b87984a8263fdfbc0db097c412b8996e37187e4efa7a5199be65869e1"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "lv.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/lv.js"
+,"sha256": "847a442b87984a8263fdfbc0db097c412b8996e37187e4efa7a5199be65869e1",
+                    "sha1": "0ce547e78b10bf52a69c557b96edb3f30f262d59",
+                    "md5": "08e62128eac1d0e8ac32cfaf75f2ec9f"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "mk.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/mk.js"
+,"md5": "dabbb90871300ce3a295969bc0260420",
+            "sha1": "00078dd1f99b93f4a0b3f1d6aeb0c13d0c42f749",
+            "sha256": "3d2a71ae70692f8492b3d4dbd2a7560fbba6508c88a11d95d5fa6a450bc25dc0"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "mk.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/mk.js"
+,"sha256": "3d2a71ae70692f8492b3d4dbd2a7560fbba6508c88a11d95d5fa6a450bc25dc0",
+                    "sha1": "00078dd1f99b93f4a0b3f1d6aeb0c13d0c42f749",
+                    "md5": "dabbb90871300ce3a295969bc0260420"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ms.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ms.js"
+,"md5": "4ba82c9a51ce975fe0e4eff5f6eece65",
+            "sha1": "5f9c625b8c1541a722736c70a943207d5ea1b26d",
+            "sha256": "342cf8467b642597fc6030c2d53141bcafa7927f83f9c18dcbbc2886aa9a403e"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ms.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ms.js"
+,"sha256": "342cf8467b642597fc6030c2d53141bcafa7927f83f9c18dcbbc2886aa9a403e",
+                    "sha1": "5f9c625b8c1541a722736c70a943207d5ea1b26d",
+                    "md5": "4ba82c9a51ce975fe0e4eff5f6eece65"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "nav_sidebar.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/nav_sidebar.js"
+,"md5": "3b9190d420b144427a4d38346e7c6506",
+            "sha1": "8a3be331bcacbe2ac993e850a7d8db081b88467a",
+            "sha256": "d71cd5f7947719aa90f79dec56690b22e649af314da0324c1c1ab041e3e9ebe4"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "nav_sidebar.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/nav_sidebar.js"
+,"sha256": "d71cd5f7947719aa90f79dec56690b22e649af314da0324c1c1ab041e3e9ebe4",
+                    "sha1": "8a3be331bcacbe2ac993e850a7d8db081b88467a",
+                    "md5": "3b9190d420b144427a4d38346e7c6506"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "nb.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/nb.js"
+,"md5": "da2fce143f2794208e36dc8520e4c36a",
+            "sha1": "eec948ca7b449e9c8a273a9df6e4fff087e04ebb",
+            "sha256": "79db8a086efa2778883eb51e9020c2abbe35ae71b8c43ed353713b2e26fbb0f1"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "nb.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/nb.js"
+,"sha256": "79db8a086efa2778883eb51e9020c2abbe35ae71b8c43ed353713b2e26fbb0f1",
+                    "sha1": "eec948ca7b449e9c8a273a9df6e4fff087e04ebb",
+                    "md5": "da2fce143f2794208e36dc8520e4c36a"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ne.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ne.js"
+,"md5": "3d79fd3f08dbfd0973cf91dd6a62bccd",
+            "sha1": "a4c0b4e89dc2615bebb57ef3f65b232f12501723",
+            "sha256": "4108c33d013a1832974b9731ab62518e4dcc183be38372337b1ef5661a276e3f"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ne.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ne.js"
+,"sha256": "4108c33d013a1832974b9731ab62518e4dcc183be38372337b1ef5661a276e3f",
+                    "sha1": "a4c0b4e89dc2615bebb57ef3f65b232f12501723",
+                    "md5": "3d79fd3f08dbfd0973cf91dd6a62bccd"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "nl.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/nl.js"
+,"md5": "997868a37ed89062ad7b19c9a88f1bb0",
+            "sha1": "76043e76f2b01d0e76115fa1bcc7b2b7f422812a",
+            "sha256": "25cb4b7d3a4b4395055edc809a06c2bd23d4b56d1fcb5984ee835870c23dd1b2"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "nl.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/nl.js"
+,"sha256": "25cb4b7d3a4b4395055edc809a06c2bd23d4b56d1fcb5984ee835870c23dd1b2",
+                    "sha1": "76043e76f2b01d0e76115fa1bcc7b2b7f422812a",
+                    "md5": "997868a37ed89062ad7b19c9a88f1bb0"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "nouislider.min.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/filters\/static\/unfold\/filters\/js\/nouislider\/nouislider.min.js"
+,"md5": "435d4762aefa801874b4e48db2379763",
+            "sha1": "668e2377ce30697b6353e0fe70874c5e38a93e68",
+            "sha256": "68812de5494b36712fe3e1cfcb170baaef5d4d2ee05e2326df9326d2b1664344"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "pl.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/pl.js"
+,"md5": "6031b4f164521f58dfec7d1e46238861",
+            "sha1": "0d4cb09186007d0d7880d0c5b27e1b30637f9522",
+            "sha256": "ea012e2989c975ff1c6cf111b30fa6b5d720741c9426e2dfd50507d1a49a8cca"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "pl.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/pl.js"
+,"sha256": "ea012e2989c975ff1c6cf111b30fa6b5d720741c9426e2dfd50507d1a49a8cca",
+                    "sha1": "0d4cb09186007d0d7880d0c5b27e1b30637f9522",
+                    "md5": "6031b4f164521f58dfec7d1e46238861"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "popup_response.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/popup_response.js"
+,"md5": "96190d343c22b6530b07517d995018ae",
+            "sha1": "7a71ef0ca135548e21f74760bad48e753767930c",
+            "sha256": "20a460d1d0a95bf824c13fa5eb2cb78481711306da039b70d1711c9293da1ef1"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "popup_response.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/popup_response.js"
+,"sha256": "20a460d1d0a95bf824c13fa5eb2cb78481711306da039b70d1711c9293da1ef1",
+                    "sha1": "7a71ef0ca135548e21f74760bad48e753767930c",
+                    "md5": "96190d343c22b6530b07517d995018ae"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "prepopulate.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/prepopulate.js"
+,"md5": "bd2361dfd64d2183823dc84b0d82801c",
+            "sha1": "636455321ea67980bcbdeb9de487a7401343016f",
+            "sha256": "518916ac734ad7e396a756b921665d834b9d7e8fdd711fa32929f9025c71aa05"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "prepopulate.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/prepopulate.js"
+,"sha256": "518916ac734ad7e396a756b921665d834b9d7e8fdd711fa32929f9025c71aa05",
+                    "sha1": "636455321ea67980bcbdeb9de487a7401343016f",
+                    "md5": "bd2361dfd64d2183823dc84b0d82801c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "prepopulate_init.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/prepopulate_init.js"
+,"md5": "6cac7f3105b86816ad13714ca1a2f79e",
+            "sha1": "d41c16b8903cbe11419173d282eb7c78e020dc63",
+            "sha256": "98920f0209fc4078e2feb4aa3ba58a35111ba640882c5ae344208e435fbd4a84"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "prepopulate_init.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/prepopulate_init.js"
+,"sha256": "98920f0209fc4078e2feb4aa3ba58a35111ba640882c5ae344208e435fbd4a84",
+                    "sha1": "d41c16b8903cbe11419173d282eb7c78e020dc63",
+                    "md5": "6cac7f3105b86816ad13714ca1a2f79e"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ps.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ps.js"
+,"md5": "38dfa47af9e086eece5a333d711abc79",
+            "sha1": "0071e891d37a638338c90740ac1cf85df1834f2d",
+            "sha256": "e09e2c66d49abf1af5bd97719a7b9bd89d07d2aaf54bc5a736c4de85f75fab83"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ps.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ps.js"
+,"sha256": "e09e2c66d49abf1af5bd97719a7b9bd89d07d2aaf54bc5a736c4de85f75fab83",
+                    "sha1": "0071e891d37a638338c90740ac1cf85df1834f2d",
+                    "md5": "38dfa47af9e086eece5a333d711abc79"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "pt-BR.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/pt-BR.js"
+,"md5": "e1b294433e7fc3175842ce37b9f15014",
+            "sha1": "d33ef214ab79a665adec2e788fc76cf8b8c76b2e",
+            "sha256": "d0315ed47bbd7c40d25e0a633ce42b03a12ad2b19bd793516ec1a1d54e2f12bd"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "pt-BR.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/pt-BR.js"
+,"sha256": "d0315ed47bbd7c40d25e0a633ce42b03a12ad2b19bd793516ec1a1d54e2f12bd",
+                    "sha1": "d33ef214ab79a665adec2e788fc76cf8b8c76b2e",
+                    "md5": "e1b294433e7fc3175842ce37b9f15014"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "pt.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/pt.js"
+,"md5": "33b4a3b44d437614b83497e36c138ca9",
+            "sha1": "a8e2d039bd8fef1c54be4cef7013814f69777517",
+            "sha256": "2f98eacfccdce4117cba4ae1a48dafbc6acd477e17ef8f3675c917f8852e5290"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "pt.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/pt.js"
+,"sha256": "2f98eacfccdce4117cba4ae1a48dafbc6acd477e17ef8f3675c917f8852e5290",
+                    "sha1": "a8e2d039bd8fef1c54be4cef7013814f69777517",
+                    "md5": "33b4a3b44d437614b83497e36c138ca9"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ro.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ro.js"
+,"md5": "f75cb460ec3b98b4b9017e9513ca20cf",
+            "sha1": "b22601703b41b9fc18da6f8c9d051500f1107545",
+            "sha256": "01a75be8b574bb62f69823a0c97d9c619eb1239b034fd388dd5ec7c2eb9e8af3"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ro.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ro.js"
+,"sha256": "01a75be8b574bb62f69823a0c97d9c619eb1239b034fd388dd5ec7c2eb9e8af3",
+                    "sha1": "b22601703b41b9fc18da6f8c9d051500f1107545",
+                    "md5": "f75cb460ec3b98b4b9017e9513ca20cf"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "ru.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/ru.js"
+,"md5": "934aa95f5b5f32c72c80857bb2622074",
+            "sha1": "c111f056dbc8aea5b4bfdd01a4f180fb7b8df181",
+            "sha256": "6d5e9e995084f656342f36d537ced628000014b513de42aa1339fae35a49dbda"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "ru.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/ru.js"
+,"sha256": "6d5e9e995084f656342f36d537ced628000014b513de42aa1339fae35a49dbda",
+                    "sha1": "c111f056dbc8aea5b4bfdd01a4f180fb7b8df181",
+                    "md5": "934aa95f5b5f32c72c80857bb2622074"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "select2.full.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/select2.full.js"
+,"md5": "c2afdeda30583c460d6db9778ba92cde",
+            "sha1": "6245cdab59b33350a6833637df0941a3b2b5ab6f",
+            "sha256": "ba0664111e4e0041b30b0c1bff832f841284e46be67344b9f4c2a7f9da2865a2"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "select2.full.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/select2.full.js"
+,"sha256": "ba0664111e4e0041b30b0c1bff832f841284e46be67344b9f4c2a7f9da2865a2",
+                    "sha1": "6245cdab59b33350a6833637df0941a3b2b5ab6f",
+                    "md5": "c2afdeda30583c460d6db9778ba92cde"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "select2.full.min.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/select2.full.min.js"
+,"md5": "fcd7500d8e13d2b2aae5d3956dc3e21d",
+            "sha1": "aa40e683c82dd844db73fde37048cf7fc145135e",
+            "sha256": "5c6fdab80cb86a279695dccc226a1fac50e2c922bea70242edaa28f52b7bad2d"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "select2.full.min.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/select2.full.min.js"
+,"sha256": "5c6fdab80cb86a279695dccc226a1fac50e2c922bea70242edaa28f52b7bad2d",
+                    "sha1": "aa40e683c82dd844db73fde37048cf7fc145135e",
+                    "md5": "fcd7500d8e13d2b2aae5d3956dc3e21d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "select2.init.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/select2.init.js"
+,"md5": "58d7417db5ff5b022008472e0af57511",
+            "sha1": "5d7e3cc323dcd03906d9f8c07fe3eb44230ad6e8",
+            "sha256": "be6332cea58d36fde90145177aab3fabae4bbb7f5e4045a764efe73dadddbfc8"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "select2.init.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/select2.init.js"
+,"sha256": "be6332cea58d36fde90145177aab3fabae4bbb7f5e4045a764efe73dadddbfc8",
+                    "sha1": "5d7e3cc323dcd03906d9f8c07fe3eb44230ad6e8",
+                    "md5": "58d7417db5ff5b022008472e0af57511"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "simplebar.js",
+            "filePath": "\/src\/staticfiles\/unfold\/js\/simplebar\/simplebar.js"
+,"md5": "e7c42525db6e929ecd3e8d84176b0c14",
+            "sha1": "130e35133d1c20d1dcaab20dea17feada500fba1",
+            "sha256": "b7eb86d45003e99a2231e37efb069cd17452ed2c680d51bacef4671ae129ed7f"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "simplebar.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/static\/unfold\/js\/simplebar\/simplebar.js"
+,"sha256": "b7eb86d45003e99a2231e37efb069cd17452ed2c680d51bacef4671ae129ed7f",
+                    "sha1": "130e35133d1c20d1dcaab20dea17feada500fba1",
+                    "md5": "e7c42525db6e929ecd3e8d84176b0c14"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sk.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sk.js"
+,"md5": "33d02cef8d110f358acd1624f7f79ffe",
+            "sha1": "2f595da6fed5a6a7bed7c511333c18b6063214be",
+            "sha256": "3276d470fea9227b81cd35bf2ffc265d8f203cb18239c2b2cd01ed845908999a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sk.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sk.js"
+,"sha256": "3276d470fea9227b81cd35bf2ffc265d8f203cb18239c2b2cd01ed845908999a",
+                    "sha1": "2f595da6fed5a6a7bed7c511333c18b6063214be",
+                    "md5": "33d02cef8d110f358acd1624f7f79ffe"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sl.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sl.js"
+,"md5": "131a78bc075237a13750ead3807683d2",
+            "sha1": "2e07269f9252a46f68965945232b966506b6666b",
+            "sha256": "2cf20ac29f60a7f59c51ce14695b7f7324a534be7f9667d996dd1b82dc279059"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sl.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sl.js"
+,"sha256": "2cf20ac29f60a7f59c51ce14695b7f7324a534be7f9667d996dd1b82dc279059",
+                    "sha1": "2e07269f9252a46f68965945232b966506b6666b",
+                    "md5": "131a78bc075237a13750ead3807683d2"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sq.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sq.js"
+,"md5": "5636b60d29c9bdd55f18a4585746b6d1",
+            "sha1": "b649c57ed50b4efc2d19fa55f39ac62285016b49",
+            "sha256": "a08c492d82ed2b4bc6da0dece63b062e7e251ee0e04a877160058bd01c87447a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sq.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sq.js"
+,"sha256": "a08c492d82ed2b4bc6da0dece63b062e7e251ee0e04a877160058bd01c87447a",
+                    "sha1": "b649c57ed50b4efc2d19fa55f39ac62285016b49",
+                    "md5": "5636b60d29c9bdd55f18a4585746b6d1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sr-Cyrl.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sr-Cyrl.js"
+,"md5": "f254bb8c4c7ce00d9d17e9e91945ad9b",
+            "sha1": "9b8799e969b2fba7274083546a471c61084baf0e",
+            "sha256": "0684f629d89c7991a0c61112473dd6d89ffb08562a5b2672a2fd9892d528ff6c"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sr-Cyrl.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sr-Cyrl.js"
+,"sha256": "0684f629d89c7991a0c61112473dd6d89ffb08562a5b2672a2fd9892d528ff6c",
+                    "sha1": "9b8799e969b2fba7274083546a471c61084baf0e",
+                    "md5": "f254bb8c4c7ce00d9d17e9e91945ad9b"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sr.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sr.js"
+,"md5": "5ed85a48f483d17a7ad102832cb11ea1",
+            "sha1": "004b24e86f31ec0fde222cc0649fcc70a3bbc330",
+            "sha256": "ec410b617c1bd2d212b2ebcbe9ea2bc734ef88c2bea1e752bd9bc4642325a065"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sr.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sr.js"
+,"sha256": "ec410b617c1bd2d212b2ebcbe9ea2bc734ef88c2bea1e752bd9bc4642325a065",
+                    "sha1": "004b24e86f31ec0fde222cc0649fcc70a3bbc330",
+                    "md5": "5ed85a48f483d17a7ad102832cb11ea1"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "sv.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/sv.js"
+,"md5": "7a9c2f71e7779a263b2cf3520b1aa611",
+            "sha1": "eaca7ac56a9176fa52cbd0a870bb8a00fd631cf1",
+            "sha256": "73a9ea5268ad2ace3fe809580ef8827ba1ea2f2387aa8b7622bbc94468e3d491"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "sv.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/sv.js"
+,"sha256": "73a9ea5268ad2ace3fe809580ef8827ba1ea2f2387aa8b7622bbc94468e3d491",
+                    "sha1": "eaca7ac56a9176fa52cbd0a870bb8a00fd631cf1",
+                    "md5": "7a9c2f71e7779a263b2cf3520b1aa611"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "t32.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/t32.exe"
+,"md5": "07894acc08732f8b6adade78d3038376",
+            "sha1": "c6f8034e2e8183d35d3f2b035405294ee01fa273",
+            "sha256": "6b4195e640a85ac32eb6f9628822a622057df1e459df7c17a12f97aeabc9415b"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t32"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t32"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "t32"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "32"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "t64-arm.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/t64-arm.exe"
+,"md5": "f4935e39cd1008b6677ecaff658b51d4",
+            "sha1": "c88f99bb82cbbf96992c36b61f6c614a15abc9d6",
+            "sha256": "ebc4c06b7d95e74e315419ee7e88e1d0f71e9e9477538c00a93a9ff8c66a6cfc"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t64-arm"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t64-arm"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "t64-arm"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "t64.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/t64.exe"
+,"md5": "19d621a4b2d26d8fa8002548a1b04a32",
+            "sha1": "0d0c5e3b06f56ad12a77da46ab3fdab81acda628",
+            "sha256": "81a618f21cb87db9076134e70388b6e9cb7c2106739011b6a51772d22cae06b7"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t64"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "t64"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "t64"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "th.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/th.js"
+,"md5": "f38c20b0221b68924d6c8f0773cb252d",
+            "sha1": "7bd949693c008c6665bdf0dc4551cffea2023204",
+            "sha256": "b1a0cf2e4fb676ae5fb4a0af5b5c1d76424e83e99703e194a0f3d53a5499ac86"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "th.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/th.js"
+,"sha256": "b1a0cf2e4fb676ae5fb4a0af5b5c1d76424e83e99703e194a0f3d53a5499ac86",
+                    "sha1": "7bd949693c008c6665bdf0dc4551cffea2023204",
+                    "md5": "f38c20b0221b68924d6c8f0773cb252d"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "theme.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/theme.js"
+,"md5": "91cf832f559eee72daf4d5b1448877cb",
+            "sha1": "fd2e97fa7c7146190f77371c22ab8216451f9280",
+            "sha256": "806eb086e2d76ed745fadfe9bd43b53bb2df5653590eeccc64e34436b3ae669e"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "theme.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/theme.js"
+,"sha256": "806eb086e2d76ed745fadfe9bd43b53bb2df5653590eeccc64e34436b3ae669e",
+                    "sha1": "fd2e97fa7c7146190f77371c22ab8216451f9280",
+                    "md5": "91cf832f559eee72daf4d5b1448877cb"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "tk.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/tk.js"
+,"md5": "7c572a68c78fb798f11f7d8c78ebb9d6",
+            "sha1": "ebb169d666967e4c2df3a99fc8896eb16aa0463f",
+            "sha256": "99410695bfbd9d01efcdc4d823ed648ec07b26c3d11a92f159b8eb27c511b615"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "tk.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/tk.js"
+,"sha256": "99410695bfbd9d01efcdc4d823ed648ec07b26c3d11a92f159b8eb27c511b615",
+                    "sha1": "ebb169d666967e4c2df3a99fc8896eb16aa0463f",
+                    "md5": "7c572a68c78fb798f11f7d8c78ebb9d6"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "tr.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/tr.js"
+,"md5": "b5a0643d1545f4a3e1622e65e46ddc7c",
+            "sha1": "0d99107aacebd1f08b319410a59866c619b63f71",
+            "sha256": "743cfc892a74eef6f1f6072222acf9eb099cd932c78f9bfca3a7acef9bf39995"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "tr.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/tr.js"
+,"sha256": "743cfc892a74eef6f1f6072222acf9eb099cd932c78f9bfca3a7acef9bf39995",
+                    "sha1": "0d99107aacebd1f08b319410a59866c619b63f71",
+                    "md5": "b5a0643d1545f4a3e1622e65e46ddc7c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "trix.config.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/forms\/static\/unfold\/forms\/js\/trix.config.js"
+,"md5": "e08a6b89bf4b62f0f3eb060ebabe3117",
+            "sha1": "c04b968739f9c13b6155646cdd0139681bd1b0ca",
+            "sha256": "b2990d06525593fa6a89da3facceb2cb0431909dcaa9bec330b8818292a4b1d0"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "trix.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/forms\/static\/unfold\/forms\/js\/trix\/trix.js"
+,"md5": "59e45886697062897acbbea019a4a7b5",
+            "sha1": "bb98ee57a7b1b4fea209a984baba3db3e1731c69",
+            "sha256": "1c95e45b0eccb6872bec87b2055a6510878ee17d245211c7b08d58adafd9325f"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "uk.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/uk.js"
+,"md5": "8cede7f4803c7dbd1e8261bfa1932b7c",
+            "sha1": "ccfb60dcad7faf9d1f18102f5827acddb7a8ad9b",
+            "sha256": "322c61143bdd45d6bec23f938eb374d7cb3b47b137e1a421463cf86dac6b74ac"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "uk.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/uk.js"
+,"sha256": "322c61143bdd45d6bec23f938eb374d7cb3b47b137e1a421463cf86dac6b74ac",
+                    "sha1": "ccfb60dcad7faf9d1f18102f5827acddb7a8ad9b",
+                    "md5": "8cede7f4803c7dbd1e8261bfa1932b7c"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "unusable_password_field.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/unusable_password_field.js"
+,"md5": "017ea86b6ae48ac33a0626dde3c84cd2",
+            "sha1": "0e8aaa5cc777fb6b1de99adf803c619250b7bfb9",
+            "sha256": "b5c1a3ec60212cca211cbb7118e02c6991f5b7416eddf4d0936977bc557d018e"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "unusable_password_field.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/unusable_password_field.js"
+,"sha256": "b5c1a3ec60212cca211cbb7118e02c6991f5b7416eddf4d0936977bc557d018e",
+                    "sha1": "0e8aaa5cc777fb6b1de99adf803c619250b7bfb9",
+                    "md5": "017ea86b6ae48ac33a0626dde3c84cd2"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "urlify.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/urlify.js"
+,"md5": "ae970a8202121d365888c4fb110e3564",
+            "sha1": "df2e80a472e9bab70bf00c0722dd1929682f686a",
+            "sha256": "f280b805cc6df28258e2ecbd3b83633f0b39957cc391d7f02365e8dccc69053a"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "urlify.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/urlify.js"
+,"sha256": "f280b805cc6df28258e2ecbd3b83633f0b39957cc391d7f02365e8dccc69053a",
+                    "sha1": "df2e80a472e9bab70bf00c0722dd1929682f686a",
+                    "md5": "ae970a8202121d365888c4fb110e3564"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "vi.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/vi.js"
+,"md5": "097a5b75b3e146e2d94ab8e1510be607",
+            "sha1": "c73feb5aeb1faa11438fadb924a8848b1743cac5",
+            "sha256": "9b04dec92b14020aaefc803a86f17333285c488335cc684d60aabc1bb5ffb693"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "vi.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/vi.js"
+,"sha256": "9b04dec92b14020aaefc803a86f17333285c488335cc684d60aabc1bb5ffb693",
+                    "sha1": "c73feb5aeb1faa11438fadb924a8848b1743cac5",
+                    "md5": "097a5b75b3e146e2d94ab8e1510be607"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "w32.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/w32.exe"
+,"md5": "2e91e902dcf13c131281786258a279a3",
+            "sha1": "3a1e4e67422d9dd54f7e8bba2bb014474d2f6ea0",
+            "sha256": "47872cc77f8e18cf642f868f23340a468e537e64521d9a3a416c8b84384d064b"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w32"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w32"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "w32"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "32"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "w64-arm.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/w64-arm.exe"
+,"md5": "79ef49f5145a0b66a49bf177fa5fd85f",
+            "sha1": "e0db21e02eea22f0da5b44745d1dd0184ddc6ebe",
+            "sha256": "c5dc9884a8f458371550e09bd396e5418bf375820a31b9899f6499bf391c7b2e"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w64-arm"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w64-arm"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "w64-arm"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "w64.exe",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/pip\/_vendor\/distlib\/w64.exe"
+,"md5": "d65d7ad7e65f344463755bb62d8ebf38",
+            "sha1": "34d3e30bcbf87581902409bf5f621f48c5fc2b10",
+            "sha256": "7a319ffaba23a017d7b1e18ba726ba6c54c53d6446db55f92af53c279894f8ad"            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w64"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGH",
+                            "source": "file",
+                            "name": "name",
+                            "value": "w64"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "name",
+                        "value": "w64"
+                    }
+,                    {
+                        "type": "version",
+                        "confidence": "MEDIUM",
+                        "source": "file",
+                        "name": "version",
+                        "value": "64"
+                    }
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "wNumb.min.js",
+            "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/unfold\/contrib\/filters\/static\/unfold\/filters\/js\/wnumb\/wNumb.min.js"
+,"md5": "d1b1e327a517dd0dba33564263880216",
+            "sha1": "67ca2037c1fe41929a75e8a86a14c36ca0eb3c5c",
+            "sha256": "81ac83dde9798a2ce1cb40e5b3229f66f7ce7ce6470e66fb04fbce713f7b1928"            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "xregexp.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/xregexp\/xregexp.js"
+,"md5": "a7e08b0ce6864ff99e850aef98ca6932",
+            "sha1": "6f23b5602b02fd6bfe91e7a62fffbe7f002658a3",
+            "sha256": "14cd9f16be1af6656c710a1ba723501b506ee3ff1ec63ba7420944a0f48fe6ea"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "xregexp.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/xregexp\/xregexp.js"
+,"sha256": "14cd9f16be1af6656c710a1ba723501b506ee3ff1ec63ba7420944a0f48fe6ea",
+                    "sha1": "6f23b5602b02fd6bfe91e7a62fffbe7f002658a3",
+                    "md5": "a7e08b0ce6864ff99e850aef98ca6932"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "xregexp.min.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/xregexp\/xregexp.min.js"
+,"md5": "f1ae4617847c53634ea8a83f81e34cb2",
+            "sha1": "dfdb635dad04d3b182f4a511e701999cedff6870",
+            "sha256": "f854171b2c0e1b05bee4374531622ad105a9197deb405b90a480dee8dffd7952"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "xregexp.min.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/xregexp\/xregexp.min.js"
+,"sha256": "f854171b2c0e1b05bee4374531622ad105a9197deb405b90a480dee8dffd7952",
+                    "sha1": "dfdb635dad04d3b182f4a511e701999cedff6870",
+                    "md5": "f1ae4617847c53634ea8a83f81e34cb2"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "zh-CN.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/zh-CN.js"
+,"md5": "2cff662ec5f972b4613566cf5988cda2",
+            "sha1": "d401505af994d0e6d75651ce55203df702938fe1",
+            "sha256": "a2501dbcf439aac37d219bb100a80355033e6e57b15275930d35d4b62a2bca02"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "zh-CN.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/zh-CN.js"
+,"sha256": "a2501dbcf439aac37d219bb100a80355033e6e57b15275930d35d4b62a2bca02",
+                    "sha1": "d401505af994d0e6d75651ce55203df702938fe1",
+                    "md5": "2cff662ec5f972b4613566cf5988cda2"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        },{
+            "isVirtual": false,
+            "fileName": "zh-TW.js",
+            "filePath": "\/src\/staticfiles\/admin\/js\/vendor\/select2\/i18n\/zh-TW.js"
+,"md5": "04554a227c2ba0f3bb6ca3d2e01e5440",
+            "sha1": "d2ac5ee73876355c63293ef7a4c6684842062621",
+            "sha256": "0e70c11bdcb004e7f155bd955e0ef5c4147fb4408f031c3b40b859397889e1fa"            ,"relatedDependencies": [
+  {
+                    "isVirtual": false,
+                    "fileName": "zh-TW.js",
+                    "filePath": "\/src\/venv\/lib\/python3.11\/site-packages\/django\/contrib\/admin\/static\/admin\/js\/vendor\/select2\/i18n\/zh-TW.js"
+,"sha256": "0e70c11bdcb004e7f155bd955e0ef5c4147fb4408f031c3b40b859397889e1fa",
+                    "sha1": "d2ac5ee73876355c63293ef7a4c6684842062621",
+                    "md5": "04554a227c2ba0f3bb6ca3d2e01e5440"
+                }
+            ]
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+                ],
+                "productEvidence": [
+                ],
+                "versionEvidence": [
+                ]
+            }
+
+        }    ]
+}
