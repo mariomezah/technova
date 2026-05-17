@@ -1,0 +1,17 @@
+************* Module reportes.models
+reportes/models.py:1:0: W0611: Unused models imported from django.db (unused-import)
+************* Module reportes.admin
+reportes/admin.py:1:0: W0611: Unused admin imported from django.contrib (unused-import)
+************* Module reportes.tests
+reportes/tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module reportes.views
+reportes/views.py:230:0: C0304: Final newline missing (missing-final-newline)
+reportes/views.py:11:21: W0613: Unused argument 'request' (unused-argument)
+reportes/views.py:141:26: W0613: Unused argument 'request' (unused-argument)
+************* Module config.urls
+config/urls.py:18:0: C0304: Final newline missing (missing-final-newline)
+config/urls.py:5:0: W0611: Unused views imported from clientes as clientes_views (unused-import)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.68/10 (previous run: 10.00/10, -0.32)
+
