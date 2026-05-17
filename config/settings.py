@@ -54,7 +54,7 @@ UNFOLD = {
     "SHOW_HISTORY": False,
     "SHOW_VIEW_ON_SITE": False,
     "SHOW_BACK_BUTTON": False,
-    
+
     "STYLES": [
         lambda request: "/static/admin/css/unfold_custom.css",
     ],

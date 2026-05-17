@@ -183,7 +183,7 @@ def reporte_clientes(request):
         logger.exception("Error de base de datos al generar reporte de clientes.")
         return HttpResponse("Ocurrió un error interno al generar el reporte.", status=500)
 
-
+# pylint: disable=too-many-return-statements
 @login_required
 def registrar_transaccion(request):
     """
