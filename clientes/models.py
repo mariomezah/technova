@@ -15,7 +15,7 @@ class Cliente(models.Model):
         verbose_name_plural = "Clientes"
 
     def __str__(self):
-        return self.nombres
+        return f"{self.nombres}"
 
 
 class Transaccion(models.Model):
@@ -31,4 +31,4 @@ class Transaccion(models.Model):
         verbose_name_plural = "Transacciones"
 
     def __str__(self):
-        return self.codigo
+        return f"{self.codigo}"

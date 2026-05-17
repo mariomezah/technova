@@ -120,7 +120,7 @@ def registrar_cliente(request):
         telefono = request.POST.get("telefono", "").strip()[:20]
         direccion = request.POST.get("direccion", "").strip()[:200]
 
-        cliente, creado = Cliente.objects.update_or_create(
+        _, creado = Cliente.objects.update_or_create(
             dni=dni,
             defaults={
                 "nombres": nombres,
@@ -157,6 +157,7 @@ def reporte_clientes(request):
     - Usa ORM.
     - No construye consultas SQL manuales.
     """
+    _ = request
     try:
         clientes = Cliente.objects.filter(activo=True).order_by("nombres")
 
