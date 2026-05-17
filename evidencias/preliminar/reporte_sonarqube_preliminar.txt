@@ -1,0 +1,9 @@
+01:59:09.457 INFO  Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+01:59:09.461 INFO  Project root configuration file: /home/demo/web/technova.demo.org.pe/public_html/sonar-project.properties
+01:59:09.480 INFO  SonarScanner CLI 6.2.1.4610
+01:59:09.482 INFO  Java 17.0.12 Eclipse Adoptium (64-bit)
+01:59:09.483 INFO  Linux 6.1.0-25-amd64 amd64
+01:59:09.528 INFO  User cache: /root/.sonar/cache
+01:59:10.269 INFO  JRE provisioning: os[linux], arch[x86_64]
+01:59:10.283 INFO  EXECUTION FAILURE
+01:59:10.285 INFO  Total time: 0.830s
