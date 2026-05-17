@@ -1,0 +1,17 @@
+[MASTER]
+ignore=venv,migrations,evidencias,staticfiles,media
+load-plugins=
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-few-public-methods,
+    invalid-name,
+    no-member,
+    duplicate-code,
+    broad-exception-caught
+
+[FORMAT]
+max-line-length=120
