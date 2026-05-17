@@ -1,0 +1,65 @@
+Run started:2026-05-17 00:30:26.339767+00:00
+
+Test results:
+>> Issue: [B608:hardcoded_sql_expressions] Possible SQL injection vector through string-based query construction.
+   Severity: Medium   Confidence: Low
+   CWE: CWE-89 (https://cwe.mitre.org/data/definitions/89.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b608_hardcoded_sql_expressions.html
+   Location: clientes/views.py:10:15
+9	
+10	    consulta = "SELECT id, dni, nombres, correo, telefono, direccion FROM clientes_cliente WHERE dni = '" + dni + "'"
+11	
+
+--------------------------------------------------
+>> Issue: [B608:hardcoded_sql_expressions] Possible SQL injection vector through string-based query construction.
+   Severity: Medium   Confidence: Low
+   CWE: CWE-89 (https://cwe.mitre.org/data/definitions/89.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b608_hardcoded_sql_expressions.html
+   Location: clientes/views.py:41:8
+40	    consulta = (
+41	        "INSERT INTO clientes_cliente "
+42	        "(dni, nombres, correo, telefono, direccion, activo, fecha_registro) "
+43	        "VALUES ('" + dni + "', '" + nombres + "', '" + correo + "', '" + telefono + "', '" + direccion + "', true, NOW())"
+44	    )
+
+--------------------------------------------------
+>> Issue: [B608:hardcoded_sql_expressions] Possible SQL injection vector through string-based query construction.
+   Severity: Medium   Confidence: Low
+   CWE: CWE-89 (https://cwe.mitre.org/data/definitions/89.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b608_hardcoded_sql_expressions.html
+   Location: clientes/views_vulenrable.py:10:15
+9	
+10	    consulta = "SELECT id, dni, nombres, correo, telefono, direccion FROM clientes_cliente WHERE dni = '" + dni + "'"
+11	
+
+--------------------------------------------------
+>> Issue: [B608:hardcoded_sql_expressions] Possible SQL injection vector through string-based query construction.
+   Severity: Medium   Confidence: Low
+   CWE: CWE-89 (https://cwe.mitre.org/data/definitions/89.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b608_hardcoded_sql_expressions.html
+   Location: clientes/views_vulenrable.py:41:8
+40	    consulta = (
+41	        "INSERT INTO clientes_cliente "
+42	        "(dni, nombres, correo, telefono, direccion, activo, fecha_registro) "
+43	        "VALUES ('" + dni + "', '" + nombres + "', '" + correo + "', '" + telefono + "', '" + direccion + "', true, NOW())"
+44	    )
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 261
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 4
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 4
+		Medium: 0
+		High: 0
+Files skipped (0):

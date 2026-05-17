@@ -1,0 +1,131 @@
+************* Module clientes.models
+clientes/models.py:34:0: C0304: Final newline missing (missing-final-newline)
+clientes/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/models.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:13:4: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:13:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+clientes/models.py:17:4: E0307: __str__ does not return str (invalid-str-returned)
+clientes/models.py:21:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:29:4: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:29:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+clientes/models.py:33:4: E0307: __str__ does not return str (invalid-str-returned)
+************* Module clientes.admin
+clientes/admin.py:14:0: C0304: Final newline missing (missing-final-newline)
+clientes/admin.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/admin.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/admin.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module clientes.tests
+clientes/tests.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module clientes.views_vulenrable
+clientes/views_vulenrable.py:10:0: C0301: Line too long (117/100) (line-too-long)
+clientes/views_vulenrable.py:43:0: C0301: Line too long (123/100) (line-too-long)
+clientes/views_vulenrable.py:62:0: C0301: Line too long (112/100) (line-too-long)
+clientes/views_vulenrable.py:76:0: C0304: Final newline missing (missing-final-newline)
+clientes/views_vulenrable.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/views_vulenrable.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulenrable.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulenrable.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulenrable.py:51:21: W0613: Unused argument 'request' (unused-argument)
+************* Module clientes.views
+clientes/views.py:10:0: C0301: Line too long (117/100) (line-too-long)
+clientes/views.py:43:0: C0301: Line too long (123/100) (line-too-long)
+clientes/views.py:62:0: C0301: Line too long (112/100) (line-too-long)
+clientes/views.py:76:0: C0304: Final newline missing (missing-final-newline)
+clientes/views.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/views.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views.py:51:21: W0613: Unused argument 'request' (unused-argument)
+************* Module clientes.urls
+clientes/urls.py:11:0: C0304: Final newline missing (missing-final-newline)
+clientes/urls.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/urls.py:5:0: C0103: Constant name "app_name" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module clientes.apps
+clientes/apps.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/apps.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module config.settings
+config/settings.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module config.urls
+config/urls.py:14:0: C0304: Final newline missing (missing-final-newline)
+config/urls.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+config/urls.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+config/urls.py:6:11: W0613: Unused argument 'request' (unused-argument)
+config/urls.py:1:0: R0801: Similar lines in 2 files
+==clientes.views:[5:76]
+==clientes.views_vulenrable:[5:76]
+    dni = request.GET.get("dni")
+
+    cursor = connection.cursor()
+
+    consulta = "SELECT id, dni, nombres, correo, telefono, direccion FROM clientes_cliente WHERE dni = '" + dni + "'"
+
+    cursor.execute(consulta)
+
+    filas = cursor.fetchall()
+
+    html = "<h1>Resultado de búsqueda de cliente</h1>"
+
+    for fila in filas:
+        html += "<p>"
+        html += "ID: " + str(fila[0]) + "<br>"
+        html += "DNI: " + str(fila[1]) + "<br>"
+        html += "Nombres: " + str(fila[2]) + "<br>"
+        html += "Correo: " + str(fila[3]) + "<br>"
+        html += "Teléfono: " + str(fila[4]) + "<br>"
+        html += "Dirección: " + str(fila[5]) + "<br>"
+        html += "</p>"
+
+    return HttpResponse(html)
+
+
+def registrar_cliente(request):
+    dni = request.GET.get("dni")
+    nombres = request.GET.get("nombres")
+    correo = request.GET.get("correo")
+    telefono = request.GET.get("telefono")
+    direccion = request.GET.get("direccion")
+
+    cursor = connection.cursor()
+
+    consulta = (
+        "INSERT INTO clientes_cliente "
+        "(dni, nombres, correo, telefono, direccion, activo, fecha_registro) "
+        "VALUES ('" + dni + "', '" + nombres + "', '" + correo + "', '" + telefono + "', '" + direccion + "', true, NOW())"
+    )
+
+    cursor.execute(consulta)
+
+    return HttpResponse("Cliente registrado correctamente")
+
+
+def reporte_clientes(request):
+    cursor = connection.cursor()
+
+    consulta = "SELECT id, dni, nombres, correo, telefono, direccion FROM clientes_cliente"
+
+    cursor.execute(consulta)
+
+    filas = cursor.fetchall()
+
+    html = "<h1>Reporte general de clientes</h1>"
+    html += "<table border='1'>"
+    html += "<tr><th>ID</th><th>DNI</th><th>Nombres</th><th>Correo</th><th>Teléfono</th><th>Dirección</th></tr>"
+
+    for fila in filas:
+        html += "<tr>"
+        html += "<td>" + str(fila[0]) + "</td>"
+        html += "<td>" + str(fila[1]) + "</td>"
+        html += "<td>" + str(fila[2]) + "</td>"
+        html += "<td>" + str(fila[3]) + "</td>"
+        html += "<td>" + str(fila[4]) + "</td>"
+        html += "<td>" + str(fila[5]) + "</td>"
+        html += "</tr>"
+
+    html += "</table>"
+
+    return HttpResponse(html) (duplicate-code)
+
+-----------------------------------
+Your code has been rated at 6.99/10
+
