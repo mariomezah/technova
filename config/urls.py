@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.urls import include, path
 
 
-def inicio(request):
+def inicio(_request):
     return HttpResponseRedirect("/admin/")
 
 

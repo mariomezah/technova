@@ -1,8 +1,4 @@
-************* Module clientes.views
-clientes/views.py:188:0: R0911: Too many return statements (7/6) (too-many-return-statements)
-************* Module config.urls
-config/urls.py:6:11: W0613: Unused argument 'request' (unused-argument)
 
-------------------------------------------------------------------
-Your code has been rated at 9.90/10 (previous run: 8.99/10, +0.91)
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.90/10, +0.10)
 
