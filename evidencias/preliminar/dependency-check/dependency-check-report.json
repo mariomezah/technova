@@ -1,0 +1,1780 @@
+{
+    "reportSchema": "1.1",
+    "scanInfo": {
+        "engineVersion": "12.2.2",
+        "dataSource": [
+{
+                "name": "NVD API Last Checked",
+                "timestamp": "2026-05-17T06:10:55Z"
+            }
+,{
+                "name": "NVD API Last Modified",
+                "timestamp": "2026-05-17T05:16:16Z"
+            }
+        ]
+
+
+    },
+    "projectInfo": {
+        "name": "",
+        "reportDate": "2026-05-17T06:21:30.842108971Z",
+        "credits": {
+            "NVD": "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+            "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+            "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+            "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+            "OSSINDEX": "This report may contain data retrieved from the Sonatype Guide OSS Index API: https://www.sonatype.com/products/sonatype-guide/oss-index-users"
+        }
+    },
+    "dependencies": [
+{
+            "isVirtual": true,
+            "fileName": "CacheControl:0.14.4",
+            "filePath": "\/src\/python\/requirements.txt:CacheControl\/0.14.4"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "CacheControl"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "CacheControl"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.14.4"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/cachecontrol@0.14.4"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "Django:5.2.14",
+            "filePath": "\/src\/python\/requirements.txt:Django\/5.2.14"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "Django"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "Django"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "5.2.14"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/django@5.2.14"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:django_project:django:5.2.14:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "PyYAML:6.0.3",
+            "filePath": "\/src\/python\/requirements.txt:PyYAML\/6.0.3"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "PyYAML"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "PyYAML"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "6.0.3"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pyyaml@6.0.3"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:pyyaml:pyyaml:6.0.3:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+,                {
+                    "id": "cpe:2.3:a:yaml_project:yaml:6.0.3:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "Pygments:2.20.0",
+            "filePath": "\/src\/python\/requirements.txt:Pygments\/2.20.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "Pygments"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "Pygments"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.20.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pygments@2.20.0"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:pygments:pygments:2.20.0:*:*:*:*:*:*:*"
+,"confidence": "LOW"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "asgiref:3.11.1",
+            "filePath": "\/src\/python\/requirements.txt:asgiref\/3.11.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "asgiref"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "asgiref"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.11.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/asgiref@3.11.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "astroid:4.0.4",
+            "filePath": "\/src\/python\/requirements.txt:astroid\/4.0.4"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "astroid"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "astroid"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.0.4"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/astroid@4.0.4"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "bandit:1.9.4",
+            "filePath": "\/src\/python\/requirements.txt:bandit\/1.9.4"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "bandit"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "bandit"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "1.9.4"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/bandit@1.9.4"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "boolean.py:5.0",
+            "filePath": "\/src\/python\/requirements.txt:boolean.py\/5.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "boolean.py"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "boolean.py"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "5.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/boolean.py@5.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "certifi:2026.4.22",
+            "filePath": "\/src\/python\/requirements.txt:certifi\/2026.4.22"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "certifi"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "certifi"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2026.4.22"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/certifi@2026.4.22"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:certifi:certifi:2026.4.22:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Acertifi%3Acertifi%3A2026.4.22%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "charset-normalizer:3.4.7",
+            "filePath": "\/src\/python\/requirements.txt:charset-normalizer\/3.4.7"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "charset-normalizer"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "charset-normalizer"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.4.7"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/charset-normalizer@3.4.7"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "cyclonedx-python-lib:11.7.0",
+            "filePath": "\/src\/python\/requirements.txt:cyclonedx-python-lib\/11.7.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "cyclonedx-python-lib"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "cyclonedx-python-lib"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "11.7.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/cyclonedx-python-lib@11.7.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "defusedxml:0.7.1",
+            "filePath": "\/src\/python\/requirements.txt:defusedxml\/0.7.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "defusedxml"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "defusedxml"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.7.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/defusedxml@0.7.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "dill:0.4.1",
+            "filePath": "\/src\/python\/requirements.txt:dill\/0.4.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "dill"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "dill"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.4.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/dill@0.4.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "django-extensions:4.1",
+            "filePath": "\/src\/python\/requirements.txt:django-extensions\/4.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "django-extensions"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "django-extensions"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/django-extensions@4.1"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:django_project:django:4.1:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Adjango_project%3Adjango%3A4.1%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "django-unfold:0.91.0",
+            "filePath": "\/src\/python\/requirements.txt:django-unfold\/0.91.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "django-unfold"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "django-unfold"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.91.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/django-unfold@0.91.0"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:django_project:django:0.91.0:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Adjango_project%3Adjango%3A0.91.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "filelock:3.29.0",
+            "filePath": "\/src\/python\/requirements.txt:filelock\/3.29.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "filelock"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "filelock"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.29.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/filelock@3.29.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "gunicorn:26.0.0",
+            "filePath": "\/src\/python\/requirements.txt:gunicorn\/26.0.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "gunicorn"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "gunicorn"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "26.0.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/gunicorn@26.0.0"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:gunicorn:gunicorn:26.0.0:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Agunicorn%3Agunicorn%3A26.0.0%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "idna:3.15",
+            "filePath": "\/src\/python\/requirements.txt:idna\/3.15"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "idna"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "idna"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.15"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/idna@3.15"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "isort:8.0.1",
+            "filePath": "\/src\/python\/requirements.txt:isort\/8.0.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "isort"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "isort"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "8.0.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/isort@8.0.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "license-expression:30.4.4",
+            "filePath": "\/src\/python\/requirements.txt:license-expression\/30.4.4"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "license-expression"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "license-expression"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "30.4.4"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/license-expression@30.4.4"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "markdown-it-py:4.2.0",
+            "filePath": "\/src\/python\/requirements.txt:markdown-it-py\/4.2.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "markdown-it-py"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "markdown-it-py"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.2.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/markdown-it-py@4.2.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "mccabe:0.7.0",
+            "filePath": "\/src\/python\/requirements.txt:mccabe\/0.7.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "mccabe"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "mccabe"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.7.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/mccabe@0.7.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "mdurl:0.1.2",
+            "filePath": "\/src\/python\/requirements.txt:mdurl\/0.1.2"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "mdurl"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "mdurl"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.1.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/mdurl@0.1.2"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "msgpack:1.1.2",
+            "filePath": "\/src\/python\/requirements.txt:msgpack\/1.1.2"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "msgpack"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "msgpack"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "1.1.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/msgpack@1.1.2"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "packageurl-python:0.17.6",
+            "filePath": "\/src\/python\/requirements.txt:packageurl-python\/0.17.6"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "packageurl-python"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "packageurl-python"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.17.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/packageurl-python@0.17.6"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "packaging:26.2",
+            "filePath": "\/src\/python\/requirements.txt:packaging\/26.2"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "packaging"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "packaging"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "26.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/packaging@26.2"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "pip-api:0.0.34",
+            "filePath": "\/src\/python\/requirements.txt:pip-api\/0.0.34"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "pip-api"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "pip-api"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.0.34"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pip-api@0.0.34"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "pip-requirements-parser:32.0.1",
+            "filePath": "\/src\/python\/requirements.txt:pip-requirements-parser\/32.0.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "pip-requirements-parser"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "pip-requirements-parser"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "32.0.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pip-requirements-parser@32.0.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "pip_audit:2.10.0",
+            "filePath": "\/src\/python\/requirements.txt:pip_audit\/2.10.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "pip_audit"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "pip_audit"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.10.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pip-audit@2.10.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "platformdirs:4.9.6",
+            "filePath": "\/src\/python\/requirements.txt:platformdirs\/4.9.6"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "platformdirs"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "platformdirs"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.9.6"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/platformdirs@4.9.6"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "psycopg2-binary:2.9.12",
+            "filePath": "\/src\/python\/requirements.txt:psycopg2-binary\/2.9.12"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "psycopg2-binary"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "psycopg2-binary"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.9.12"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/psycopg2-binary@2.9.12"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:binary_project:binary:2.9.12:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Abinary_project%3Abinary%3A2.9.12%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "py-serializable:2.1.0",
+            "filePath": "\/src\/python\/requirements.txt:py-serializable\/2.1.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "py-serializable"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "py-serializable"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.1.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/py-serializable@2.1.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "pylint:4.0.5",
+            "filePath": "\/src\/python\/requirements.txt:pylint\/4.0.5"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "pylint"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "pylint"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.0.5"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pylint@4.0.5"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "pyparsing:3.3.2",
+            "filePath": "\/src\/python\/requirements.txt:pyparsing\/3.3.2"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "pyparsing"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "pyparsing"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.3.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/pyparsing@3.3.2"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "python-decouple:3.8",
+            "filePath": "\/src\/python\/requirements.txt:python-decouple\/3.8"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "python-decouple"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "python-decouple"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "3.8"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/python-decouple@3.8"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "requests:2.34.2",
+            "filePath": "\/src\/python\/requirements.txt:requests\/2.34.2"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "requests"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "requests"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.34.2"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/requests@2.34.2"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "rich:15.0.0",
+            "filePath": "\/src\/python\/requirements.txt:rich\/15.0.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "rich"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "rich"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "15.0.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/rich@15.0.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "sortedcontainers:2.4.0",
+            "filePath": "\/src\/python\/requirements.txt:sortedcontainers\/2.4.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "sortedcontainers"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "sortedcontainers"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.4.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/sortedcontainers@2.4.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "sqlparse:0.5.5",
+            "filePath": "\/src\/python\/requirements.txt:sqlparse\/0.5.5"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "sqlparse"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "sqlparse"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.5.5"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/sqlparse@0.5.5"
+,"confidence": "HIGHEST"                    }
+            ]                ,"vulnerabilityIds": [
+                {
+                    "id": "cpe:2.3:a:sqlparse_project:sqlparse:0.5.5:*:*:*:*:*:*:*"
+,"confidence": "HIGHEST","url": "https:\/\/nvd.nist.gov\/vuln\/search#\/nvd\/home?sortOrder=3&sortDirection=2&cpeFilterMode=applicability&resultType=records&cpeName=cpe%3A2.3%3Aa%3Asqlparse_project%3Asqlparse%3A0.5.5%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A%3A%2A"                }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "stevedore:5.7.0",
+            "filePath": "\/src\/python\/requirements.txt:stevedore\/5.7.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "stevedore"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "stevedore"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "5.7.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/stevedore@5.7.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "tomli:2.4.1",
+            "filePath": "\/src\/python\/requirements.txt:tomli\/2.4.1"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "tomli"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "tomli"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.4.1"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/tomli@2.4.1"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "tomli_w:1.2.0",
+            "filePath": "\/src\/python\/requirements.txt:tomli_w\/1.2.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "tomli_w"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "tomli_w"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "1.2.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/tomli-w@1.2.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "tomlkit:0.15.0",
+            "filePath": "\/src\/python\/requirements.txt:tomlkit\/0.15.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "tomlkit"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "tomlkit"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "0.15.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/tomlkit@0.15.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "typing_extensions:4.15.0",
+            "filePath": "\/src\/python\/requirements.txt:typing_extensions\/4.15.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "typing_extensions"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "typing_extensions"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "4.15.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/typing-extensions@4.15.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        },{
+            "isVirtual": true,
+            "fileName": "urllib3:2.7.0",
+            "filePath": "\/src\/python\/requirements.txt:urllib3\/2.7.0"
+            ,"evidenceCollected": {
+                "vendorEvidence": [
+{
+                            "type": "vendor",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "vendor",
+                            "value": "urllib3"
+                        }
+                ],
+                "productEvidence": [
+{
+                            "type": "product",
+                            "confidence": "HIGHEST",
+                            "source": "requirements.txt",
+                            "name": "product",
+                            "value": "urllib3"
+                    }
+                ],
+                "versionEvidence": [
+                    {
+                        "type": "version",
+                        "confidence": "HIGHEST",
+                        "source": "requirements.txt",
+                        "name": "version",
+                        "value": "2.7.0"
+                    }
+                ]
+            }
+                ,"packages": [
+                    {
+                        "id": "pkg:pypi\/urllib3@2.7.0"
+,"confidence": "HIGHEST"                    }
+            ]
+        }    ]
+}
