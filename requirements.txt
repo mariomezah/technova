@@ -9,6 +9,8 @@ cyclonedx-python-lib==11.7.0
 defusedxml==0.7.1
 dill==0.4.1
 Django==5.2.14
+django-extensions==4.1
+django-unfold==0.91.0
 filelock==3.29.0
 gunicorn==26.0.0
 idna==3.15

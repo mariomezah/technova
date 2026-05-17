@@ -10,6 +10,7 @@ DEBUG = config("DEBUG", default=False, cast=bool)
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv())
 
 INSTALLED_APPS = [
+    "unfold",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,6 +46,19 @@ TEMPLATES = [
         },
     },
 ]
+
+UNFOLD = {
+    "SITE_TITLE": "Sistema Web TechNova",
+    "SITE_HEADER": "Sistema Web TechNova",
+    "SITE_URL": None,
+    "SHOW_HISTORY": False,
+    "SHOW_VIEW_ON_SITE": False,
+    "SHOW_BACK_BUTTON": False,
+    
+    "STYLES": [
+        lambda request: "/static/admin/css/unfold_custom.css",
+    ],
+}
 
 WSGI_APPLICATION = 'config.wsgi.application'
 

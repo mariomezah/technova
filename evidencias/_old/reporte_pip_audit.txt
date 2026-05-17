@@ -1,0 +1,5 @@
+Name       Version ID            Fix Versions
+---------- ------- ------------- ------------
+setuptools 66.1.1  PYSEC-2025-49 78.1.1
+setuptools 66.1.1  PYSEC-2025-49 78.1.1
+setuptools 66.1.1  CVE-2024-6345 70.0.0
