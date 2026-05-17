@@ -1,5 +1,6 @@
 from pathlib import Path
 from decouple import config, Csv
+from django.urls import reverse_lazy
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -18,6 +19,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'clientes',
+    'reportes',
 ]
 
 MIDDLEWARE = [
@@ -48,16 +50,50 @@ TEMPLATES = [
 ]
 
 UNFOLD = {
-    "SITE_TITLE": "Sistema Web TechNova",
-    "SITE_HEADER": "Sistema Web TechNova",
-    "SITE_URL": None,
-    "SHOW_HISTORY": False,
+    "SITE_TITLE": "TechNova Seguridad",
+    "SITE_HEADER": "TechNova Seguridad",
+    "SITE_SUBHEADER": "Sistema web para gestión de clientes y transacciones",
+    "SITE_SYMBOL": "shield",
+    "SHOW_HISTORY": True,
     "SHOW_VIEW_ON_SITE": False,
-    "SHOW_BACK_BUTTON": False,
 
-    "STYLES": [
-        lambda request: "/static/admin/css/unfold_custom.css",
-    ],
+    "SIDEBAR": {        
+        "show_all_applications": False,
+        "navigation": [
+            {
+                "title": "Gestión de clientes",
+                "separator": True,
+                "items": [
+                    {
+                        "title": "Clientes",
+                        "icon": "person",
+                        "link": reverse_lazy("admin:clientes_cliente_changelist"),
+                    },
+                    {
+                        "title": "Transacciones",
+                        "icon": "receipt_long",
+                        "link": reverse_lazy("admin:clientes_transaccion_changelist"),
+                    },
+                ],
+            },
+            {
+                "title": "Reportes internos",
+                "separator": True,
+                "items": [
+                    {
+                        "title": "Reporte de clientes",
+                        "icon": "summarize",
+                        "link": "/reportes/clientes/",
+                    },
+                    {
+                        "title": "Reporte de transacciones",
+                        "icon": "payments",
+                        "link": "/reportes/transacciones/",
+                    },
+                ],
+            },
+        ],
+    },
 }
 
 WSGI_APPLICATION = 'config.wsgi.application'
