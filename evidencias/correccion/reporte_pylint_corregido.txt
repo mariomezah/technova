@@ -1,0 +1,76 @@
+************* Module clientes.models
+clientes/models.py:34:0: C0304: Final newline missing (missing-final-newline)
+clientes/models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/models.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:13:4: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:13:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+clientes/models.py:17:4: E0307: __str__ does not return str (invalid-str-returned)
+clientes/models.py:21:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:29:4: C0115: Missing class docstring (missing-class-docstring)
+clientes/models.py:29:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+clientes/models.py:33:4: E0307: __str__ does not return str (invalid-str-returned)
+************* Module clientes.urls_vulnerable
+clientes/urls_vulnerable.py:11:0: C0304: Final newline missing (missing-final-newline)
+clientes/urls_vulnerable.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/urls_vulnerable.py:5:0: C0103: Constant name "app_name" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module clientes.admin
+clientes/admin.py:20:0: C0304: Final newline missing (missing-final-newline)
+clientes/admin.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/admin.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+clientes/admin.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module clientes.tests
+clientes/tests.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/tests.py:1:0: W0611: Unused TestCase imported from django.test (unused-import)
+************* Module clientes.views_vulnerable
+clientes/views_vulnerable.py:10:0: C0301: Line too long (117/100) (line-too-long)
+clientes/views_vulnerable.py:43:0: C0301: Line too long (123/100) (line-too-long)
+clientes/views_vulnerable.py:62:0: C0301: Line too long (112/100) (line-too-long)
+clientes/views_vulnerable.py:76:0: C0304: Final newline missing (missing-final-newline)
+clientes/views_vulnerable.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/views_vulnerable.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulnerable.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulnerable.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+clientes/views_vulnerable.py:51:21: W0613: Unused argument 'request' (unused-argument)
+************* Module clientes.views
+clientes/views.py:165:0: C0301: Line too long (116/100) (line-too-long)
+clientes/views.py:231:0: C0304: Final newline missing (missing-final-newline)
+clientes/views.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/views.py:98:11: W0718: Catching too general exception Exception (broad-exception-caught)
+clientes/views.py:71:19: E1101: Class 'Cliente' has no 'objects' member (no-member)
+clientes/views.py:146:11: W0718: Catching too general exception Exception (broad-exception-caught)
+clientes/views.py:123:26: E1101: Class 'Cliente' has no 'objects' member (no-member)
+clientes/views.py:123:8: W0612: Unused variable 'cliente' (unused-variable)
+clientes/views.py:161:19: E1101: Class 'Cliente' has no 'objects' member (no-member)
+clientes/views.py:152:21: W0613: Unused argument 'request' (unused-argument)
+clientes/views.py:229:11: W0718: Catching too general exception Exception (broad-exception-caught)
+clientes/views.py:211:8: E1101: Class 'Transaccion' has no 'objects' member (no-member)
+clientes/views.py:187:0: R0911: Too many return statements (7/6) (too-many-return-statements)
+************* Module clientes.urls
+clientes/urls.py:12:0: C0304: Final newline missing (missing-final-newline)
+clientes/urls.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/urls.py:5:0: C0103: Constant name "app_name" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module clientes.apps
+clientes/apps.py:7:0: C0304: Final newline missing (missing-final-newline)
+clientes/apps.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+clientes/apps.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+************* Module config.settings
+config/settings.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+config/settings.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module config.urls
+config/urls.py:14:0: C0304: Final newline missing (missing-final-newline)
+config/urls.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+config/urls.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+config/urls.py:6:11: W0613: Unused argument 'request' (unused-argument)
+config/urls.py:1:0: R0801: Similar lines in 2 files
+==clientes.urls:[4:10]
+==clientes.urls_vulnerable:[4:10]
+app_name = "clientes"
+
+urlpatterns = [
+    path("buscar/", views.buscar_cliente, name="buscar_cliente"),
+    path("registrar/", views.registrar_cliente, name="registrar_cliente"),
+    path("reporte/", views.reporte_clientes, name="reporte_clientes"), (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 7.01/10 (previous run: 6.82/10, +0.19)
+
