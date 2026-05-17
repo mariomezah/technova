@@ -1,0 +1,22 @@
+535f47b | 2026-05-17 | Mario Meza Hidalgo | Actualiza informe y evidencias finales del PAC TechNova
+d900986 | 2026-05-17 | Mario Meza Hidalgo | Agrega revision OWASP Dependency-Check excluyendo entorno virtual
+120c72a | 2026-05-17 | Mario Meza Hidalgo | Agrega reporte final OWASP Dependency-Check
+7779db3 | 2026-05-17 | Mario Meza Hidalgo | Agrega revision final OWASP Dependency-Check
+430b86b | 2026-05-17 | Mario Meza Hidalgo | Obtiene calificacion 10 en Pylint posterior a correccion
+6ef7f1e | 2026-05-17 | Mario Meza Hidalgo | Mejora resultado Pylint posterior a la correccion
+50963fb | 2026-05-17 | Mario Meza Hidalgo | Ajusta calidad de codigo y evidencia verificacion posterior
+0bb6bce | 2026-05-17 | Mario Meza Hidalgo | Corrige vulnerabilidades de dependencias detectadas por pip-audit
+ca4a74d | 2026-05-17 | Mario Meza Hidalgo | Agrega matriz comparativa de hallazgos antes y despues
+285869e | 2026-05-17 | Mario Meza Hidalgo | Agrega evidencias de correccion y verificacion de seguridad
+ed1ca36 | 2026-05-17 | Mario Meza Hidalgo | Corrige modulo cliente aplicando validacion y ORM seguro
+726329b | 2026-05-17 | Mario Meza Hidalgo | Guarda copia del codigo vulnerable antes de la correccion
+5a4ad1c | 2026-05-17 | Mario Meza Hidalgo | Agrega workflow Pylint para revision preliminar
+a5cd50d | 2026-05-17 | Mario Meza Hidalgo | Agrega evidencia Pylint en revision preliminar
+5327480 | 2026-05-17 | Mario Meza Hidalgo | Agrega evidencias preliminares de herramientas SAST
+6642487 | 2026-05-17 | Mario Meza Hidalgo | Agrega evidencia OWASP Dependency-Check preliminar
+fb60777 | 2026-05-17 | Mario Meza Hidalgo | Agrega evidencia preliminar de analisis SonarQube
+5c2365f | 2026-05-16 | Mario Meza Hidalgo | Agrega revision preliminar con modulo cliente vulnerable
+113e505 | 2026-05-16 | Mario Meza Hidalgo | Corrige modulo cliente aplicando codificacion segura
+45c714a | 2026-05-16 | Mario Meza Hidalgo | Agrega evidencias iniciales de seguridad del PAC
+621f081 | 2026-05-16 | Mario Meza Hidalgo | Implementa modulo cliente vulnerable para evidencia del PAC
+dccf2b7 | 2026-05-16 | root | Crea proyecto Django TechNova desde VPS

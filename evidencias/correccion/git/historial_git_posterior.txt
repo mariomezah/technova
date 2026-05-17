@@ -1,0 +1,22 @@
+* 535f47b (HEAD -> main, origin/main) Actualiza informe y evidencias finales del PAC TechNova
+* d900986 Agrega revision OWASP Dependency-Check excluyendo entorno virtual
+* 120c72a Agrega reporte final OWASP Dependency-Check
+* 7779db3 Agrega revision final OWASP Dependency-Check
+* 430b86b Obtiene calificacion 10 en Pylint posterior a correccion
+* 6ef7f1e Mejora resultado Pylint posterior a la correccion
+* 50963fb Ajusta calidad de codigo y evidencia verificacion posterior
+* 0bb6bce Corrige vulnerabilidades de dependencias detectadas por pip-audit
+* ca4a74d Agrega matriz comparativa de hallazgos antes y despues
+* 285869e Agrega evidencias de correccion y verificacion de seguridad
+* ed1ca36 Corrige modulo cliente aplicando validacion y ORM seguro
+* 726329b Guarda copia del codigo vulnerable antes de la correccion
+* 5a4ad1c Agrega workflow Pylint para revision preliminar
+* a5cd50d Agrega evidencia Pylint en revision preliminar
+* 5327480 Agrega evidencias preliminares de herramientas SAST
+* 6642487 Agrega evidencia OWASP Dependency-Check preliminar
+* fb60777 Agrega evidencia preliminar de analisis SonarQube
+* 5c2365f Agrega revision preliminar con modulo cliente vulnerable
+* 113e505 Corrige modulo cliente aplicando codificacion segura
+* 45c714a Agrega evidencias iniciales de seguridad del PAC
+* 621f081 Implementa modulo cliente vulnerable para evidencia del PAC
+* dccf2b7 Crea proyecto Django TechNova desde VPS
